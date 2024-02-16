@@ -16,5 +16,18 @@ namespace Restaurant_Reservation_system
         {
             InitializeComponent();
         }
+        public void OrderInfo(string orderin)
+        {
+            orderLbl.Text = orderLbl.Text + "\n" + orderin;
+
+            Food food = new Food();
+            this.Show();
+        }
+
+        private void orderBtn_Click(object sender, EventArgs e)
+        {
+            DbTransactions order = new DbTransactions();
+            //order.insertOrder(totprice);
+        }
     }
 }

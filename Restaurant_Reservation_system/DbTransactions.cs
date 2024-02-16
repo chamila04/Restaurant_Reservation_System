@@ -61,7 +61,7 @@ namespace Restaurant_Reservation_system
                 return false;
             }
         }
-        public int orderPrice(string foodName, int quantity)
+        public int orderPrice(string foodName)
         {
             int price = 0;
             try
@@ -88,6 +88,141 @@ namespace Restaurant_Reservation_system
                 return price;
             }
             return price;
+        }
+        public bool insertFood(string foodName, string category, int price)
+        {
+            try
+            {
+               MySqlConnection con = new DbConnection().connectDB();
+            string query = "insert into food_details(food_name,category,price) values('" + foodName + "','" + category + "'," + price + ")";
+            MySqlCommand cmd = new MySqlCommand( query, con);
+            con.Open();
+            cmd.ExecuteNonQuery();
+            con.Close();
+            return true; 
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                return false;
+            }
+            
+        }
+        public bool insertEmployee(string firstName, string lastName, string address, string position, int telephone)
+        {
+            try
+            {
+                MySqlConnection con = new DbConnection().connectDB();
+                string query = "insert into employee_details(first_name,last_name,address,position,tetephone) values('" + firstName + "','" + lastName + "',"+ position +"'," + telephone + ")";
+                MySqlCommand cmd = new MySqlCommand(query, con);
+                con.Open();
+                cmd.ExecuteNonQuery();
+                con.Close();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                return false;
+            }
+        }
+        public bool insertOrder(string totprice)
+        {
+            try
+            {
+                MySqlConnection con = new DbConnection().connectDB();
+                string query = "insert into order_details(total_price) values(" + totprice + ")";
+                MySqlCommand cmd = new MySqlCommand(query, con);
+                con.Open();
+                cmd.ExecuteNonQuery();
+                con.Close();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                return false;
+            }
+        }
+
+        // detete food details using food name
+        public bool deleteFood(string foodName)
+        {
+            try
+            {
+                MySqlConnection con = new DbConnection().connectDB();
+                string query = "delete from food_details where food_name =" + foodName;
+                MySqlCommand cmd = new MySqlCommand(query, con);
+                con.Open();
+                cmd.ExecuteNonQuery();
+                con.Close();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                return false;
+            }
+        }
+
+        // delete employee deteils using first name
+        public bool deleteEmployee(string empName)
+        {
+            try
+            {
+                MySqlConnection con = new DbConnection().connectDB();
+                string query = "delete from employee_details where first_name =" + empName;
+                MySqlCommand cmd = new MySqlCommand(query, con);
+                con.Open();
+                cmd.ExecuteNonQuery();
+                con.Close();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                return false;
+            }
+        }
+
+        // update food details using food name
+        public bool updateFood(string foodName, string category, int price)
+        {
+            try
+            {
+                MySqlConnection con = new DbConnection().connectDB();
+                string query = "update food_details set category ='" + category + "', price = " + price + " where food_name ="+ foodName;
+                MySqlCommand cmd = new MySqlCommand(query, con);
+                con.Open();
+                cmd.ExecuteNonQuery();
+                con.Close();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                return false;
+            }
+        }
+
+        // update employee details using first name
+        public bool updateEmployee(string firstName, string lastName, string address, string position, int telephone)
+        {
+            try
+            {
+                MySqlConnection con = new DbConnection().connectDB();
+                string query = "update food_details set last_name ='" + lastName + "', address = '" + firstName + "', position = '" + lastName + "'"+ telephone +" where first_name =" + firstName;
+                MySqlCommand cmd = new MySqlCommand(query, con);
+                con.Open();
+                cmd.ExecuteNonQuery();
+                con.Close();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                return false;
+            }
         }
     }
 }
