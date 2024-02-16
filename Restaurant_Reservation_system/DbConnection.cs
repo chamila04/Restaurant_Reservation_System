@@ -11,7 +11,7 @@ namespace Restaurant_Reservation_system
     {
         public MySqlConnection connectDB()
         {
-            string con_string = "server=127.0.0.1;uid=root;pwd=;database=restaurant_resrvation";
+            string con_string = "server=127.0.0.1;uid=root;pwd=;database=restaurant_reservation";
             MySqlConnection con = new MySqlConnection(con_string);
             return con;
         }
