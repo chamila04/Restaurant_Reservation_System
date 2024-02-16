@@ -38,6 +38,9 @@ namespace Restaurant_Reservation_system
 
             Order orderin = new Order();
             orderin.OrderInfo(orderinfo);
+
+            Menu menu = new Menu();
+            menu.orderFormCall(typeof(Order));
         }
     }
 }

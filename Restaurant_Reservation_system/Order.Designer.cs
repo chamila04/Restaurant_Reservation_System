@@ -53,11 +53,12 @@
             // 
             // orderLbl
             // 
+            this.orderLbl.AutoSize = false;
             this.orderLbl.BackColor = System.Drawing.Color.Transparent;
             this.orderLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.orderLbl.Location = new System.Drawing.Point(22, 170);
+            this.orderLbl.Location = new System.Drawing.Point(12, 160);
             this.orderLbl.Name = "orderLbl";
-            this.orderLbl.Size = new System.Drawing.Size(36, 19);
+            this.orderLbl.Size = new System.Drawing.Size(268, 362);
             this.orderLbl.TabIndex = 4;
             this.orderLbl.Text = "order";
             // 
@@ -109,7 +110,7 @@
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold);
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(22, 45);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(258, 39);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(258, 57);
             this.guna2HtmlLabel1.TabIndex = 0;
             this.guna2HtmlLabel1.Text = "My orders";
             // 
@@ -123,7 +124,6 @@
             this.Name = "Order";
             this.Text = "Order";
             this.guna2Panel1.ResumeLayout(false);
-            this.guna2Panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
