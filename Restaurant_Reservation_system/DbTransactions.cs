@@ -99,6 +99,6 @@ namespace Restaurant_Reservation_system
             con.Close();
             return true;
         }
-        public bool
+       // public bool
     }
 }
