@@ -74,19 +74,5 @@ namespace Restaurant_Reservation_system
             // Show the child form
             childForm.Show();
         }
-        public void DisplayOrderFormInPanel()
-        {
-            // Clear existing controls in the panel
-            orderPnl.Controls.Clear();
-
-            // Create an instance of OrderForm
-            Order orderForm = new Order();
-
-            // Set OrderForm's Dock property to Fill to make it fill the panel
-            orderForm.Dock = DockStyle.Fill;
-
-            // Add OrderForm to the panel
-            orderPnl.Controls.Add(orderForm);
-        }
     }
 }

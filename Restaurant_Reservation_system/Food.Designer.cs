@@ -591,6 +591,7 @@
             this.setectBtn1.Size = new System.Drawing.Size(116, 31);
             this.setectBtn1.TabIndex = 1;
             this.setectBtn1.Text = "select";
+            this.setectBtn1.Click += new System.EventHandler(this.setectBtn1_Click);
             // 
             // guna2NumericUpDown1
             // 

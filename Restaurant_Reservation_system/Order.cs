@@ -19,10 +19,9 @@ namespace Restaurant_Reservation_system
         public void OrderInfo(string orderin)
         {
             orderLbl.Text = orderLbl.Text + "\n" + orderin;
-            
-            //Food food = new Food();
-            //food.OpenChildFormInPanel(typeof(Food));
-            //this.Show();
+
+            Food food = new Food();
+            this.Show();
         }
     }
 }

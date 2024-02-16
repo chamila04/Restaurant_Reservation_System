@@ -12,11 +12,9 @@ namespace Restaurant_Reservation_system
 {
     public partial class Food : Form
     {
-        private Menu menu;
-        public Food(Menu menu)
+        public Food()
         {
             InitializeComponent();
-            this.menu = menu;
         }
 
         private void guna2Panel1_Paint(object sender, PaintEventArgs e)
@@ -40,8 +38,6 @@ namespace Restaurant_Reservation_system
 
             Order orderin = new Order();
             orderin.OrderInfo(orderinfo);
-
-            menu.DisplayOrderFormInPanel();
         }
     }
 }
