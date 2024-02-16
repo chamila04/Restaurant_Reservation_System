@@ -89,5 +89,16 @@ namespace Restaurant_Reservation_system
             }
             return price;
         }
+        public bool insertFood(string foodName, string category, int price)
+        {
+            MySqlConnection con = new DbConnection().connectDB();
+            string query = "insert into products(food_name,category,price) values('" + foodName + "','" + category + "'," + price + ")";
+            MySqlCommand cmd = new MySqlCommand( query, con);
+            con.Open();
+            cmd.ExecuteNonQuery();
+            con.Close();
+            return true;
+        }
+        public bool
     }
 }
