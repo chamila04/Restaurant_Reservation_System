@@ -31,7 +31,7 @@ namespace Restaurant_Reservation_system
             string orderinfo = "";
 
             DbTransactions order = new DbTransactions();
-            price = order.orderPrice(foodName, quantity);
+            price = order.orderPrice(foodName);
             tprice = quantity * price;
             orderinfo = foodName + "    " + quantity + " x " + price + " =  " + tprice;
             //MessageBox.Show(orderinfo);
