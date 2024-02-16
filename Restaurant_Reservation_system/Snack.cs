@@ -16,5 +16,10 @@ namespace Restaurant_Reservation_system
         {
             InitializeComponent();
         }
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
