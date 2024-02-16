@@ -16,7 +16,7 @@ namespace Restaurant_Reservation_system
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Food());
+            Application.Run(new GRIDVIEW());
         }
     }
 }

@@ -49,46 +49,47 @@
             this.USER_NAME,
             this.PASSWORD,
             this.ACCESS});
-            this.dataGridView2.Location = new System.Drawing.Point(12, 12);
+            this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView2.Location = new System.Drawing.Point(0, 0);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(803, 470);
+            this.dataGridView2.Size = new System.Drawing.Size(808, 580);
             this.dataGridView2.TabIndex = 1;
             // 
             // ID
             // 
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.ID.DefaultCellStyle = dataGridViewCellStyle1;
-            this.ID.HeaderText = "ID";
+            this.ID.HeaderText = "id";
             this.ID.MinimumWidth = 6;
             this.ID.Name = "ID";
             this.ID.Width = 125;
             // 
             // FIRST_NAME
             // 
-            this.FIRST_NAME.HeaderText = "FIRST_NAME";
+            this.FIRST_NAME.HeaderText = "first_name";
             this.FIRST_NAME.MinimumWidth = 6;
             this.FIRST_NAME.Name = "FIRST_NAME";
             this.FIRST_NAME.Width = 125;
             // 
             // LAST_NAME
             // 
-            this.LAST_NAME.HeaderText = "LAST_NAME";
+            this.LAST_NAME.HeaderText = "last_name";
             this.LAST_NAME.MinimumWidth = 6;
             this.LAST_NAME.Name = "LAST_NAME";
             this.LAST_NAME.Width = 125;
             // 
             // USER_NAME
             // 
-            this.USER_NAME.HeaderText = "USER_NAME";
+            this.USER_NAME.HeaderText = "username";
             this.USER_NAME.MinimumWidth = 6;
             this.USER_NAME.Name = "USER_NAME";
             this.USER_NAME.Width = 125;
             // 
             // PASSWORD
             // 
-            this.PASSWORD.HeaderText = "PASSWORD";
+            this.PASSWORD.HeaderText = "password";
             this.PASSWORD.MinimumWidth = 6;
             this.PASSWORD.Name = "PASSWORD";
             this.PASSWORD.ReadOnly = true;
@@ -96,7 +97,7 @@
             // 
             // ACCESS
             // 
-            this.ACCESS.HeaderText = "ACCESS";
+            this.ACCESS.HeaderText = "access";
             this.ACCESS.MinimumWidth = 6;
             this.ACCESS.Name = "ACCESS";
             this.ACCESS.Width = 125;
@@ -105,10 +106,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(960, 580);
+            this.ClientSize = new System.Drawing.Size(808, 580);
             this.Controls.Add(this.dataGridView2);
             this.Name = "GRIDVIEW";
             this.Text = "GRIDVIEW";
+            this.Load += new System.EventHandler(this.GRIDVIEW_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
 
