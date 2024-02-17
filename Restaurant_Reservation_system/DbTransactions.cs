@@ -132,7 +132,7 @@ namespace Restaurant_Reservation_system
             try
             {
                 MySqlConnection con = new DbConnection().connectDB();
-                string query = "delete from food_details where food_name =" + foodName;
+                string query = "delete from food_details where food_name=" + foodName;
                 MySqlCommand cmd = new MySqlCommand(query, con);
                 con.Open();
                 cmd.ExecuteNonQuery();

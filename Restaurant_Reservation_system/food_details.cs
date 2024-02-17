@@ -58,5 +58,12 @@ namespace Restaurant_Reservation_system
         {
 
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            DeleteFood delete = new DeleteFood();
+            delete.Show();
+            this.Hide();
+        }
     }
 }
