@@ -28,28 +28,28 @@ namespace Restaurant_Reservation_system
         {
             menuFormCall(typeof(Food));
 
-            orderFormCall(typeof(Order));
+            //orderFormCall(typeof(Order));
         }
 
         private void drinkBtn_Click(object sender, EventArgs e)
         {
             menuFormCall(typeof(Drink));
 
-            orderFormCall(typeof(Order));
+            //orderFormCall(typeof(Order));
         }
 
         private void dessertBtn_Click(object sender, EventArgs e)
         {
             menuFormCall(typeof(Dessert));
 
-            orderFormCall(typeof(Order));
+            //orderFormCall(typeof(Order));
         }
 
         private void snackBtn_Click(object sender, EventArgs e)
         {
             menuFormCall(typeof(Snack));
 
-            orderFormCall(typeof(Order));
+            //orderFormCall(typeof(Order));
         }
         //private void OpenChildFormInPanel(Type formType)
         //{
@@ -97,26 +97,24 @@ namespace Restaurant_Reservation_system
                 menuDisPnl.Controls.Add(childForm);
                 childForm.Show();
         }
-        public void orderFormCall(Type formName)
-        {
-            foreach (Control control in orderPnl.Controls)
-            {
-                if (control.GetType() == formName)
-                {
-                    control.BringToFront();
-                    return;
-                }
-            }
-                Form childForm = (Form)(Activator.CreateInstance(formName));
+        //public void orderFormCall(Type formName)
+        //{
+        //    foreach (Control control in orderPnl.Controls)
+        //    {
+        //        if (control.GetType() == formName)
+        //        {
+        //            control.BringToFront();
+        //            return;
+        //        }
+        //    }
+        //    Form childForm = (Form)(Activator.CreateInstance(formName));
 
-                childForm.TopLevel = false;
-                childForm.FormBorderStyle = FormBorderStyle.None;
-                childForm.Dock = DockStyle.Fill;
+        //    childForm.TopLevel = false;
+        //    childForm.FormBorderStyle = FormBorderStyle.None;
+        //    childForm.Dock = DockStyle.Fill;
 
-            // Show the child form
-            childForm.Show();
-
-            
-        }
+        //    // Show the child form
+        //    childForm.Show();
+        //}
     }
 }

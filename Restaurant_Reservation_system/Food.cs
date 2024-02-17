@@ -51,8 +51,7 @@ namespace Restaurant_Reservation_system
 
             orderin.orderLable(ftotal);
 
-            Menu menu = new Menu();
-            menu.orderFormCall(typeof(Order));
+            
         }
         public int foodTotal() 
         {
