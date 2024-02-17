@@ -40,5 +40,12 @@ namespace Restaurant_Reservation_system
         {
             foodGrid();
         }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            AdminDashboard dashboard = new AdminDashboard();
+            dashboard.Show();
+            this.Hide();
+        }
     }
 }

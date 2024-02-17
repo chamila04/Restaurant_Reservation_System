@@ -97,6 +97,7 @@
             this.guna2Button3.TabIndex = 7;
             this.guna2Button3.Text = "Back";
             this.guna2Button3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
             // food_details
             // 
