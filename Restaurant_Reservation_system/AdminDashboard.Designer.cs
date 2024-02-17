@@ -134,6 +134,7 @@
             this.foodBtn.Size = new System.Drawing.Size(345, 178);
             this.foodBtn.TabIndex = 4;
             this.foodBtn.Text = "Food";
+            this.foodBtn.Click += new System.EventHandler(this.foodBtn_Click);
             // 
             // guna2Button2
             // 
@@ -154,7 +155,7 @@
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(345, 178);
             this.guna2Button2.TabIndex = 5;
-            this.guna2Button2.Text = "Food";
+            this.guna2Button2.Text = "Inventery";
             // 
             // AdminDashboard
             // 
