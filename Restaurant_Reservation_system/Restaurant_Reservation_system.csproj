@@ -121,6 +121,12 @@
     </Compile>
     <Compile Include="DbConnection.cs" />
     <Compile Include="DbTransactions.cs" />
+    <Compile Include="DeleteFood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteFood.Designer.cs">
+      <DependentUpon>DeleteFood.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dessert.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -219,6 +225,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteFood.resx">
+      <DependentUpon>DeleteFood.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dessert.resx">
       <DependentUpon>Dessert.cs</DependentUpon>
