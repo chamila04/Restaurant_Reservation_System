@@ -108,12 +108,12 @@ namespace Restaurant_Reservation_system
             }
             
         }
-        public bool insertEmployee(string firstName, string lastName, string address, string position, int telephone)
+        public bool insertEmployee(string firstName, string lastName, string username, string password, string access)
         {
             try
             {
                 MySqlConnection con = new DbConnection().connectDB();
-                string query = "insert into employee_details(first_name,last_name,address,position,tetephone) values('" + firstName + "','" + lastName + "',"+ position +"'," + telephone + ")";
+                string query = "insert into login_details(first_name,last_name,username,password,access) values('"+ firstName +"','" + lastName + "'," + password + "','"+ access +"')";
                 MySqlCommand cmd = new MySqlCommand(query, con);
                 con.Open();
                 cmd.ExecuteNonQuery();
