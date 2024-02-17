@@ -28,7 +28,7 @@ namespace Restaurant_Reservation_system
                 MySqlDataReader rdr = cmd.ExecuteReader();
                 DataTable table = new DataTable();
                 table.Load(rdr);
-                dataGridView2.DataSource = table;
+                dataGridView1.DataSource = table;
                 con.Close();
             }
             catch (Exception ex)
