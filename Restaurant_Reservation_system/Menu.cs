@@ -26,54 +26,97 @@ namespace Restaurant_Reservation_system
 
         private void foodBtn_Click(object sender, EventArgs e)
         {
-            OpenChildFormInPanel(typeof(Food));
-        }
+            menuFormCall(typeof(Food));
 
-        private void guna2Panel4_Paint(object sender, PaintEventArgs e)
-        {
+            orderFormCall(typeof(Order));
         }
 
         private void drinkBtn_Click(object sender, EventArgs e)
         {
-            OpenChildFormInPanel(typeof(Drink));
+            menuFormCall(typeof(Drink));
+
+            orderFormCall(typeof(Order));
         }
 
         private void dessertBtn_Click(object sender, EventArgs e)
         {
-            OpenChildFormInPanel(typeof(Dessert));
+            menuFormCall(typeof(Dessert));
+
+            orderFormCall(typeof(Order));
         }
 
         private void snackBtn_Click(object sender, EventArgs e)
         {
-            OpenChildFormInPanel(typeof(Snack));
+            menuFormCall(typeof(Snack));
+
+            orderFormCall(typeof(Order));
         }
-        private void OpenChildFormInPanel(Type formType)
+        //private void OpenChildFormInPanel(Type formType)
+        //{
+        //    // Check if a child form of the specified type is already open
+        //    foreach (Control control in orderDisPnl.Controls)
+        //    {
+        //        if (control.GetType() == formType)
+        //        {
+        //            // If already open, activate it and return
+        //            control.BringToFront();
+        //            return;
+        //        }
+        //    }
+
+        //    // If not already open, create a new instance of the child form
+        //    Form childForm = (Form)Activator.CreateInstance(formType);
+
+        //    // Set properties of the child form
+        //    childForm.TopLevel = false;
+        //    childForm.FormBorderStyle = FormBorderStyle.None;
+        //    childForm.Dock = DockStyle.Fill;
+
+        //    // Add the child form to the panel's Controls collection
+        //    orderDisPnl.Controls.Add(childForm);
+
+        //    // Show the child form
+        //    childForm.Show();
+        //}
+        public void menuFormCall(Type formName)
         {
-            // Check if a child form of the specified type is already open
-            foreach (Control control in guna2Panel4.Controls)
+            foreach (Control control in menuDisPnl.Controls)
             {
-                if (control.GetType() == formType)
+                if (control.GetType() == formName)
                 {
-                    // If already open, activate it and return
                     control.BringToFront();
                     return;
                 }
             }
+                Form childForm = (Form)(Activator.CreateInstance(formName));
 
-            // If not already open, create a new instance of the child form
-            Form childForm = (Form)Activator.CreateInstance(formType);
+                childForm.TopLevel = false;
+                childForm.FormBorderStyle= FormBorderStyle.None;
+                childForm.Dock = DockStyle.Fill;
 
-            // Set properties of the child form
-            childForm.TopLevel = false;
-            childForm.FormBorderStyle = FormBorderStyle.None;
-            childForm.Dock = DockStyle.Fill;
+                menuDisPnl.Controls.Add(childForm);
+                childForm.Show();
+        }
+        public void orderFormCall(Type formName)
+        {
+            foreach (Control control in orderPnl.Controls)
+            {
+                if (control.GetType() == formName)
+                {
+                    control.BringToFront();
+                    return;
+                }
+            }
+                Form childForm = (Form)(Activator.CreateInstance(formName));
 
-            // Add the child form to the panel's Controls collection
-            guna2Panel4.Controls.Add(childForm);
+                childForm.TopLevel = false;
+                childForm.FormBorderStyle = FormBorderStyle.None;
+                childForm.Dock = DockStyle.Fill;
 
             // Show the child form
             childForm.Show();
-        }
 
+            
+        }
     }
 }

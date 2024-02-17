@@ -23,11 +23,5 @@ namespace Restaurant_Reservation_system
             Food food = new Food();
             this.Show();
         }
-
-        private void orderBtn_Click(object sender, EventArgs e)
-        {
-            DbTransactions order = new DbTransactions();
-            //order.insertOrder(totprice);
-        }
     }
 }

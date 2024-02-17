@@ -27,18 +27,20 @@ namespace Restaurant_Reservation_system
             string foodName = nameLbl1.Text;
             int quantity = (int)guna2NumericUpDown1.Value;
             int price = 0;
-            int totprice = 0;
+            int tprice = 0;
             string orderinfo = "";
 
             DbTransactions order = new DbTransactions();
             price = order.orderPrice(foodName);
-            totprice = quantity * price;
-            orderinfo = foodName + "    " + quantity + " x " + price + " =  " + totprice;
+            tprice = quantity * price;
+            orderinfo = foodName + "    " + quantity + " x " + price + " =  " + tprice;
             //MessageBox.Show(orderinfo);
 
             Order orderin = new Order();
             orderin.OrderInfo(orderinfo);
 
+            Menu menu = new Menu();
+            menu.orderFormCall(typeof(Order));
         }
     }
 }

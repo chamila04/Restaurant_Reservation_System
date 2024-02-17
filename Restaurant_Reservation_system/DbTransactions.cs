@@ -126,25 +126,6 @@ namespace Restaurant_Reservation_system
                 return false;
             }
         }
-        public bool insertOrder(string totprice)
-        {
-            try
-            {
-                MySqlConnection con = new DbConnection().connectDB();
-                string query = "insert into order_details(total_price) values(" + totprice + ")";
-                MySqlCommand cmd = new MySqlCommand(query, con);
-                con.Open();
-                cmd.ExecuteNonQuery();
-                con.Close();
-                return true;
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-                return false;
-            }
-        }
-
         // detete food details using food name
         public bool deleteFood(string foodName)
         {

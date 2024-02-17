@@ -78,5 +78,10 @@ namespace Restaurant_Reservation_system
                 }
             }
         }
+
+        private void guna2HtmlLabel3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
