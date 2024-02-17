@@ -47,5 +47,16 @@ namespace Restaurant_Reservation_system
             dashboard.Show();
             this.Hide();
         }
+
+        private void Btnnew_Click(object sender, EventArgs e)
+        {
+            FoodReg fr = new FoodReg();
+            fr.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

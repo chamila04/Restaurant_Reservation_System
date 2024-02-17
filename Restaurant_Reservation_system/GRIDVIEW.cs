@@ -48,5 +48,11 @@ namespace Restaurant_Reservation_system
             dashboard.Show();
             this.Hide();
         }
+
+        private void Btnnew_Click(object sender, EventArgs e)
+        {
+            EmployeeReg er = new EmployeeReg();
+            er.Show();
+        }
     }
 }

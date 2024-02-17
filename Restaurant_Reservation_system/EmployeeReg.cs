@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Restaurant_Reservation_system
 {
-    public partial class RegisterEmploye : Form
+    public partial class EmployeeReg : Form
     {
-        public RegisterEmploye()
+        public EmployeeReg()
         {
             InitializeComponent();
-        }
-
-        private void RegisterEmploye_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
