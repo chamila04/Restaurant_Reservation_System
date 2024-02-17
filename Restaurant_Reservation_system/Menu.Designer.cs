@@ -38,7 +38,7 @@
             this.dessertBtn = new Guna.UI2.WinForms.Guna2Button();
             this.drinkBtn = new Guna.UI2.WinForms.Guna2Button();
             this.foodBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
+            this.menuDisPnl = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.orderPnl = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel1.SuspendLayout();
@@ -187,16 +187,15 @@
             this.foodBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.foodBtn.Click += new System.EventHandler(this.foodBtn_Click);
             // 
-            // guna2Panel4
+            // menuDisPnl
             // 
-            this.guna2Panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2Panel4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.guna2Panel4.Location = new System.Drawing.Point(136, 28);
-            this.guna2Panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.guna2Panel4.Name = "guna2Panel4";
-            this.guna2Panel4.Size = new System.Drawing.Size(605, 557);
-            this.guna2Panel4.TabIndex = 3;
-            this.guna2Panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel4_Paint);
+
+            this.menuDisPnl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.menuDisPnl.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.menuDisPnl.Location = new System.Drawing.Point(182, 35);
+            this.menuDisPnl.Name = "menuDisPnl";
+            this.menuDisPnl.Size = new System.Drawing.Size(806, 685);
+            this.menuDisPnl.TabIndex = 3;
             // 
             // guna2BorderlessForm1
             // 
@@ -219,8 +218,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(960, 585);
-            this.Controls.Add(this.guna2Panel4);
+            this.ClientSize = new System.Drawing.Size(1280, 720);
+            this.Controls.Add(this.menuDisPnl);
             this.Controls.Add(this.orderPnl);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
@@ -242,7 +241,7 @@
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private Guna.UI2.WinForms.Guna2Button foodBtn;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
+        private Guna.UI2.WinForms.Guna2Panel menuDisPnl;
         private Guna.UI2.WinForms.Guna2Button drinkBtn;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2Button snackBtn;
