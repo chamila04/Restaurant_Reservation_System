@@ -25,10 +25,12 @@ namespace Restaurant_Reservation_system
         {
             InitializeComponent();
         }
-
-        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        public string foodTotal(int fprice1)
         {
-
+            ftotal = fprice1 + fprice2 + fprice3 + fprice4 + fprice5 + fprice6;
+            ftotals = ftotal.ToString();
+            //MessageBox.Show(ftotal.ToString());
+            return ftotals;
         }
         private void setectBtn1_Click(object sender, EventArgs e)
         {
@@ -51,12 +53,34 @@ namespace Restaurant_Reservation_system
             tprice = fprice1;
             totpriLbl.Text = foodTotal(fprice1);
         }
-        public string foodTotal(int fprice1) 
+        private void guna2Button1_Click(object sender, EventArgs e)
         {
-            ftotal = fprice1 + fprice2 + fprice3 + fprice4 + fprice5 + fprice6;
-            ftotals = ftotal.ToString();
-            //MessageBox.Show(ftotal.ToString());
-            return ftotals;
+
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void orderBtn_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

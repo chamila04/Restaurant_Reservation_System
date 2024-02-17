@@ -111,7 +111,6 @@
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(1020, 640);
             this.guna2Panel1.TabIndex = 0;
-            this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
             // 
             // guna2Panel8
             // 
@@ -183,6 +182,7 @@
             this.orderBtn.Size = new System.Drawing.Size(135, 37);
             this.orderBtn.TabIndex = 6;
             this.orderBtn.Text = "Order";
+            this.orderBtn.Click += new System.EventHandler(this.orderBtn_Click);
             // 
             // guna2HtmlLabel12
             // 
@@ -267,6 +267,7 @@
             this.guna2Button4.Size = new System.Drawing.Size(116, 31);
             this.guna2Button4.TabIndex = 1;
             this.guna2Button4.Text = "select";
+            this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
             // 
             // guna2NumericUpDown5
             // 
@@ -350,6 +351,7 @@
             this.guna2Button5.Size = new System.Drawing.Size(116, 31);
             this.guna2Button5.TabIndex = 1;
             this.guna2Button5.Text = "select";
+            this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
             // 
             // guna2NumericUpDown6
             // 
@@ -433,6 +435,7 @@
             this.guna2Button2.Size = new System.Drawing.Size(116, 31);
             this.guna2Button2.TabIndex = 1;
             this.guna2Button2.Text = "select";
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // guna2NumericUpDown3
             // 
@@ -516,6 +519,7 @@
             this.guna2Button1.Size = new System.Drawing.Size(116, 31);
             this.guna2Button1.TabIndex = 1;
             this.guna2Button1.Text = "select";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // guna2NumericUpDown2
             // 
@@ -599,6 +603,7 @@
             this.guna2Button3.Size = new System.Drawing.Size(116, 31);
             this.guna2Button3.TabIndex = 1;
             this.guna2Button3.Text = "select";
+            this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
             // guna2NumericUpDown4
             // 
