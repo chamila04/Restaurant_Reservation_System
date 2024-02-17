@@ -212,7 +212,7 @@
             this.orderPnl.Name = "orderPnl";
             this.orderPnl.Size = new System.Drawing.Size(219, 557);
             this.orderPnl.TabIndex = 2;
-            this.orderPnl.Paint += new System.Windows.Forms.PaintEventHandler(this.orderPnl_Paint);
+            //this.orderPnl.Paint += new System.Windows.Forms.PaintEventHandler(this.orderPnl_Paint);
             // 
             // Menu
             // 
