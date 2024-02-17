@@ -133,6 +133,16 @@ namespace Restaurant_Reservation_system.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Untitled_design__7_ {
+            get {
+                object obj = ResourceManager.GetObject("Untitled design (7)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Untitled_design__8_ {
             get {
                 object obj = ResourceManager.GetObject("Untitled design (8)", resourceCulture);

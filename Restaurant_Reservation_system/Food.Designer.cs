@@ -553,10 +553,10 @@
             this.nameLbl1.AutoSize = false;
             this.nameLbl1.BackColor = System.Drawing.Color.Transparent;
             this.nameLbl1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.nameLbl1.Location = new System.Drawing.Point(93, 10);
+            this.nameLbl1.Location = new System.Drawing.Point(111, 10);
             this.nameLbl1.Margin = new System.Windows.Forms.Padding(2);
             this.nameLbl1.Name = "nameLbl1";
-            this.nameLbl1.Size = new System.Drawing.Size(268, 31);
+            this.nameLbl1.Size = new System.Drawing.Size(250, 31);
             this.nameLbl1.TabIndex = 3;
             this.nameLbl1.Text = "Chicken Rice and Curry";
             // 
@@ -566,10 +566,10 @@
             this.guna2PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(-5, 0);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(2, 2);
             this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(94, 94);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(94, 90);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
@@ -598,7 +598,7 @@
             this.guna2NumericUpDown1.BackColor = System.Drawing.Color.Transparent;
             this.guna2NumericUpDown1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2NumericUpDown1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2NumericUpDown1.Location = new System.Drawing.Point(129, 54);
+            this.guna2NumericUpDown1.Location = new System.Drawing.Point(111, 54);
             this.guna2NumericUpDown1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.guna2NumericUpDown1.Name = "guna2NumericUpDown1";
             this.guna2NumericUpDown1.Size = new System.Drawing.Size(99, 31);

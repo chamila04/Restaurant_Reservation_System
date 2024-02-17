@@ -73,6 +73,13 @@ namespace Restaurant_Reservation_system
 
             // Show the child form
             childForm.Show();
+
+            
+        }
+
+        private void orderPnl_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

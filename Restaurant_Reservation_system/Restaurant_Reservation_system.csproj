@@ -234,5 +234,8 @@
   <ItemGroup>
     <None Include="Resources\shrimp-fried-rice-on-plate-thumbnail1.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled design %287%29.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
