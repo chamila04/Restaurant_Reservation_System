@@ -23,7 +23,8 @@ namespace Restaurant_Reservation_system
             string lname = lnameText.Text;
             string username = usernameText.Text;
             string password = passwordText.Text;
-            string access = accessCom.Text;
+            string access = accessCom.SelectedItem.ToString();
+            MessageBox.Show(access);
 
             DbTransactions insert = new DbTransactions();
             bool status= insert.insertEmployee(fname,lname,username,password,access);
@@ -45,6 +46,11 @@ namespace Restaurant_Reservation_system
                 fnameText.Focus();
                 return;
             }
+        }
+
+        private void accessCom_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

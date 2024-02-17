@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Common;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -27,24 +28,28 @@ namespace Restaurant_Reservation_system
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            try
-            {
-                MySqlConnection con = new DbConnection().connectDB();
-                string query = "INSERT INTO food_details(food_name, category, price) VALUES('" + textname + "','" + combocata + "'," + textprice + ")";
-                
+            string name = nameText.Text;
+            string category = catCombo.SelectedItem.ToString();
+            int price = int.Parse(priceText.Text);
 
-                MySqlCommand cmd = new MySqlCommand(query, con);
-                con.Open();
-                cmd.ExecuteNonQuery();
-                con.Close();
-                
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-                
-            }
+            DbTransactions foodadd = new DbTransactions();
+            bool status = foodadd.insertFood(name, category, price);
 
+            if (status == true)
+            {
+                MessageBox.Show("employee registerd succesfully");
+                GRIDVIEW gRIDVIEW = new GRIDVIEW();
+                gRIDVIEW.Show();
+                this.Hide();
+            }
+            if (status == false)
+            {
+                MessageBox.Show("employee registeration fail");
+                nameText.Text = "";
+                priceText.Text = "";
+                nameText.Focus();
+                return;
+            }
         }
     }
 }

@@ -175,6 +175,7 @@
             this.accessCom.Name = "accessCom";
             this.accessCom.Size = new System.Drawing.Size(383, 33);
             this.accessCom.TabIndex = 11;
+            this.accessCom.SelectedIndexChanged += new System.EventHandler(this.accessCom_SelectedIndexChanged);
             // 
             // guna2Button1
             // 

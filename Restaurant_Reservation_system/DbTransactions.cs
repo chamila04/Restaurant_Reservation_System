@@ -113,7 +113,7 @@ namespace Restaurant_Reservation_system
             try
             {
                 MySqlConnection con = new DbConnection().connectDB();
-                string query = "insert into login_details(first_name,last_name,username,password,access) values('" + lastName + "'," + password + "','" + access + "')";
+                string query = "insert into login_details(first_name,last_name,username,password,access) values('"+ firstName +"','" + lastName + "'," + password + "','"+ access +"')";
                 MySqlCommand cmd = new MySqlCommand(query, con);
                 con.Open();
                 cmd.ExecuteNonQuery();
