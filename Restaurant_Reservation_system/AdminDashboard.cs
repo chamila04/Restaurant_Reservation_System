@@ -22,9 +22,7 @@ namespace Restaurant_Reservation_system
         }
         private void menuBtn_Click(object sender, EventArgs e)
         {
-            GRIDVIEW gridview = new GRIDVIEW();
-            gridview.Show();
-            this.Hide();
+
         }
 
         private void hungryLbl_Click(object sender, EventArgs e)
@@ -35,7 +33,17 @@ namespace Restaurant_Reservation_system
 
         private void empBtn_Click(object sender, EventArgs e)
         {
+            GRIDVIEW gridview = new GRIDVIEW();
+            gridview.Show();
+            this.Hide();
 
+        }
+
+        private void foodBtn_Click(object sender, EventArgs e)
+        {
+            food_details food_Details = new food_details();
+            food_Details.Show();
+            this.Hide();
         }
     }
 }
