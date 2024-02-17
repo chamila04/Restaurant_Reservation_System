@@ -23,13 +23,17 @@ namespace Restaurant_Reservation_system
             Food food = new Food();
             this.Show();
         }
-        private void Order_load(object sender, EventArgs e)
+        private void Order_Load(object sender, EventArgs e)
+        {
+
+            
+        }
+        public void orderLable(int totprice)
         {
             Food food = new Food();
             //int ftot = food.foodTotal();
             totpriLbl.Text = food.foodTotal().ToString();
 
-            
         }
     }
 }
