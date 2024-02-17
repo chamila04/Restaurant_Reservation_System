@@ -112,7 +112,7 @@
             this.empBtn.Size = new System.Drawing.Size(345, 178);
             this.empBtn.TabIndex = 3;
             this.empBtn.Text = "Employee";
-            this.empBtn.Click += new System.EventHandler(this.menuBtn_Click_1);
+            this.empBtn.Click += new System.EventHandler(this.empBtn_Click);
             // 
             // foodBtn
             // 

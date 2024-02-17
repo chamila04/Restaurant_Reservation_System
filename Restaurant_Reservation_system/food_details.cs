@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,29 @@ namespace Restaurant_Reservation_system
         public food_details()
         {
             InitializeComponent();
+        }
+        public void foodGrid()
+        {
+            try
+            {
+                MySqlConnection con = new DbConnection().connectDB();
+                string query = "select * from food_details";
+                MySqlCommand cmd = new MySqlCommand(query, con);
+                con.Open();
+                MySqlDataReader rdr = cmd.ExecuteReader();
+                DataTable table = new DataTable();
+                table.Load(rdr);
+                dataGridView1.DataSource = table;
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+        private void food_details_Load(object sender, EventArgs e)
+        {
+            foodGrid();
         }
     }
 }

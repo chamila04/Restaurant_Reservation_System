@@ -33,7 +33,7 @@ namespace Restaurant_Reservation_system
             //hungryLbl.BackColor = Color.Transparent;
         }
 
-        private void menuBtn_Click_1(object sender, EventArgs e)
+        private void empBtn_Click(object sender, EventArgs e)
         {
 
         }
