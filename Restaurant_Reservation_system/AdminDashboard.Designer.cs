@@ -65,7 +65,7 @@
             this.guna2Button3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button3.Location = new System.Drawing.Point(0, 0);
             this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(91, 34);
+            this.guna2Button3.Size = new System.Drawing.Size(102, 34);
             this.guna2Button3.TabIndex = 6;
             this.guna2Button3.Text = "Back";
             this.guna2Button3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
