@@ -13,13 +13,14 @@ namespace Restaurant_Reservation_system
 {
     public partial class Food : Form
     {
-        int fprice1;
-        int fprice2;
-        int fprice3;
-        int fprice4;
-        int fprice5;
-        int fprice6;
-        int ftotal;
+        public int fprice1 = 0;
+        public int fprice2 = 0;
+        public int fprice3 = 0;
+        public int fprice4 = 0;
+        public int fprice5 = 0;
+        public int fprice6 = 0;
+        public int ftotal = 0;
+        public string ftotals = "";
         public Food()
         {
             InitializeComponent();
@@ -40,24 +41,22 @@ namespace Restaurant_Reservation_system
 
             DbTransactions order = new DbTransactions();
             price = order.orderPrice(foodName);
-            fprice1 = quantity * price;
+            tprice = quantity * price;
             tprices = tprice.ToString();
-            //tprice = fprice1;
-            orderinfo = foodName + "    " + quantity + " x " + price + " =  " + tprices;
+            //MessageBox.Show(tprices);
+            orderinfo = foodName + "    " + quantity + " x " + price + " =  " + tprices + "\n";
             //MessageBox.Show(orderinfo);
 
-            Order orderin = new Order();
-            orderin.OrderInfo(orderinfo);
-
-            orderin.orderLable(ftotal);
-
-            
+            orderLbl.Text += "\n" + orderinfo + "\n";
+            tprice = fprice1;
+            totpriLbl.Text = foodTotal(fprice1);
         }
-        public int foodTotal() 
+        public string foodTotal(int fprice1) 
         {
             ftotal = fprice1 + fprice2 + fprice3 + fprice4 + fprice5 + fprice6;
-            MessageBox.Show(ftotal.ToString());
-            return ftotal;
+            ftotals = ftotal.ToString();
+            //MessageBox.Show(ftotal.ToString());
+            return ftotals;
         }
     }
 }

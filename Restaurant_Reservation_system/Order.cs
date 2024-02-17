@@ -25,14 +25,13 @@ namespace Restaurant_Reservation_system
         }
         private void Order_Load(object sender, EventArgs e)
         {
-
             
         }
         public void orderLable(int totprice)
         {
             Food food = new Food();
             //int ftot = food.foodTotal();
-            totpriLbl.Text = food.foodTotal().ToString();
+            //totpriLbl.Text = food.foodTotal().ToString();
 
         }
     }
