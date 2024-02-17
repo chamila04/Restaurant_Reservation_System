@@ -111,6 +111,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "GRIDVIEW";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GRIDVIEW";
             this.Load += new System.EventHandler(this.GRIDVIEW_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

@@ -13,6 +13,13 @@ namespace Restaurant_Reservation_system
 {
     public partial class Food : Form
     {
+        int fprice1 = 0;
+        int fprice2 = 0;
+        int fprice3 = 0;
+        int fprice4 = 0;
+        int fprice5 = 0;
+        int fprice6 = 0;
+        int ftotal = 0;
         public Food()
         {
             InitializeComponent();
@@ -29,11 +36,14 @@ namespace Restaurant_Reservation_system
             int price = 0;
             int tprice = 0;
             string orderinfo = "";
+            string tprices = "";
 
             DbTransactions order = new DbTransactions();
             price = order.orderPrice(foodName);
             tprice = quantity * price;
-            orderinfo = foodName + "    " + quantity + " x " + price + " =  " + tprice;
+            tprices = tprice.ToString();
+            tprice = fprice1;
+            orderinfo = foodName + "    " + quantity + " x " + price + " =  " + tprices;
             //MessageBox.Show(orderinfo);
 
             Order orderin = new Order();
@@ -41,6 +51,11 @@ namespace Restaurant_Reservation_system
 
             Menu menu = new Menu();
             menu.orderFormCall(typeof(Order));
+        }
+        public int foodTotal() 
+        {
+            ftotal = fprice1 + fprice2 + fprice3 + fprice4 + fprice5 + fprice6;
+            return ftotal;
         }
     }
 }

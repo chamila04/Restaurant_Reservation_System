@@ -18,10 +18,18 @@ namespace Restaurant_Reservation_system
         }
         public void OrderInfo(string orderin)
         {
-            orderLbl.Text = orderLbl.Text + "\n" + orderin;
+            orderLbl.Text += "\n" + orderin;
 
             Food food = new Food();
             this.Show();
+        }
+        private void Order_load(object sender, EventArgs e)
+        {
+            Food food = new Food();
+            //int ftot = food.foodTotal();
+            totpriLbl.Text = food.foodTotal().ToString();
+
+            
         }
     }
 }

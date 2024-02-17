@@ -47,9 +47,9 @@
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(29)))), ((int)(((byte)(61)))));
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(960, 28);
+            this.guna2Panel1.Size = new System.Drawing.Size(1280, 34);
             this.guna2Panel1.TabIndex = 1;
             // 
             // guna2Button3
@@ -64,9 +64,9 @@
             this.guna2Button3.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button3.Image")));
             this.guna2Button3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button3.Location = new System.Drawing.Point(0, 0);
-            this.guna2Button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(76, 28);
+            this.guna2Button3.Size = new System.Drawing.Size(101, 34);
             this.guna2Button3.TabIndex = 6;
             this.guna2Button3.Text = "Back";
             this.guna2Button3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -76,10 +76,10 @@
             this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2ControlBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(920, 0);
-            this.guna2ControlBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2ControlBox1.Location = new System.Drawing.Point(1227, 0);
+            this.guna2ControlBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2ControlBox1.Name = "guna2ControlBox1";
-            this.guna2ControlBox1.Size = new System.Drawing.Size(40, 28);
+            this.guna2ControlBox1.Size = new System.Drawing.Size(53, 34);
             this.guna2ControlBox1.TabIndex = 0;
             // 
             // guna2PictureBox1
@@ -87,10 +87,10 @@
             this.guna2PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(0, 28);
-            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(0, 34);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(960, 557);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(1280, 686);
             this.guna2PictureBox1.TabIndex = 2;
             this.guna2PictureBox1.TabStop = false;
             // 
@@ -98,7 +98,7 @@
             // 
             this.empBtn.AutoRoundedCorners = true;
             this.empBtn.BackColor = System.Drawing.Color.Transparent;
-            this.empBtn.BorderRadius = 71;
+            this.empBtn.BorderRadius = 88;
             this.empBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.empBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.empBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -109,10 +109,10 @@
             this.empBtn.ForeColor = System.Drawing.Color.White;
             this.empBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.empBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.empBtn.Location = new System.Drawing.Point(45, 191);
-            this.empBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.empBtn.Location = new System.Drawing.Point(60, 235);
+            this.empBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.empBtn.Name = "empBtn";
-            this.empBtn.Size = new System.Drawing.Size(259, 145);
+            this.empBtn.Size = new System.Drawing.Size(345, 178);
             this.empBtn.TabIndex = 3;
             this.empBtn.Text = "Employee";
             this.empBtn.Click += new System.EventHandler(this.empBtn_Click);
@@ -121,7 +121,7 @@
             // 
             this.foodBtn.AutoRoundedCorners = true;
             this.foodBtn.BackColor = System.Drawing.Color.Transparent;
-            this.foodBtn.BorderRadius = 71;
+            this.foodBtn.BorderRadius = 88;
             this.foodBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.foodBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.foodBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -132,19 +132,19 @@
             this.foodBtn.ForeColor = System.Drawing.Color.White;
             this.foodBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.foodBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.foodBtn.Location = new System.Drawing.Point(340, 191);
-            this.foodBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.foodBtn.Location = new System.Drawing.Point(453, 235);
+            this.foodBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.foodBtn.Name = "foodBtn";
-            this.foodBtn.Size = new System.Drawing.Size(259, 145);
+            this.foodBtn.Size = new System.Drawing.Size(345, 178);
             this.foodBtn.TabIndex = 4;
             this.foodBtn.Text = "Food";
-            this.foodBtn.Click += new System.EventHandler(this.foodBtn_Click);
+            this.foodBtn.Click += new System.EventHandler(this.foodBtn_Click_1);
             // 
             // guna2Button2
             // 
             this.guna2Button2.AutoRoundedCorners = true;
             this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.BorderRadius = 71;
+            this.guna2Button2.BorderRadius = 88;
             this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -155,27 +155,27 @@
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
             this.guna2Button2.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.guna2Button2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button2.Location = new System.Drawing.Point(641, 191);
-            this.guna2Button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Button2.Location = new System.Drawing.Point(855, 235);
+            this.guna2Button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(259, 145);
+            this.guna2Button2.Size = new System.Drawing.Size(345, 178);
             this.guna2Button2.TabIndex = 5;
             this.guna2Button2.Text = "Inventery";
             // 
             // AdminDashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Restaurant_Reservation_system.Properties.Resources.Untitled_design__7_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(960, 585);
+            this.ClientSize = new System.Drawing.Size(1280, 720);
             this.Controls.Add(this.guna2Button2);
             this.Controls.Add(this.foodBtn);
             this.Controls.Add(this.empBtn);
             this.Controls.Add(this.guna2PictureBox1);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "AdminDashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AdminDashboard";

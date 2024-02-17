@@ -110,6 +110,7 @@
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "food_details";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "food_details";
             this.Load += new System.EventHandler(this.food_details_Load);
             this.guna2Panel1.ResumeLayout(false);

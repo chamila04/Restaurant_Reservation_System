@@ -30,7 +30,7 @@
         {
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.orderLbl = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.totpriLbl = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.orderBtn = new Guna.UI2.WinForms.Guna2Button();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -41,7 +41,7 @@
             // 
             this.guna2Panel1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.guna2Panel1.Controls.Add(this.orderLbl);
-            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel3);
+            this.guna2Panel1.Controls.Add(this.totpriLbl);
             this.guna2Panel1.Controls.Add(this.guna2HtmlLabel2);
             this.guna2Panel1.Controls.Add(this.orderBtn);
             this.guna2Panel1.Controls.Add(this.guna2HtmlLabel1);
@@ -62,16 +62,15 @@
             this.orderLbl.TabIndex = 4;
             this.orderLbl.Text = "order";
             // 
-            // guna2HtmlLabel3
+            // totpriLbl
             // 
-            this.guna2HtmlLabel3.AutoSize = false;
-            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Segoe UI Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(196, 539);
-            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(116, 25);
-            this.guna2HtmlLabel3.TabIndex = 3;
-            this.guna2HtmlLabel3.Text = "10000.00";
+            this.totpriLbl.AutoSize = false;
+            this.totpriLbl.BackColor = System.Drawing.Color.Transparent;
+            this.totpriLbl.Font = new System.Drawing.Font("Segoe UI Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totpriLbl.Location = new System.Drawing.Point(196, 539);
+            this.totpriLbl.Name = "totpriLbl";
+            this.totpriLbl.Size = new System.Drawing.Size(116, 25);
+            this.totpriLbl.TabIndex = 3;
             // 
             // guna2HtmlLabel2
             // 
@@ -125,6 +124,7 @@
             this.Text = "Order";
             this.guna2Panel1.ResumeLayout(false);
             this.ResumeLayout(false);
+
         }
 
         #endregion
@@ -133,7 +133,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2Button orderBtn;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
+        private Guna.UI2.WinForms.Guna2HtmlLabel totpriLbl;
         private Guna.UI2.WinForms.Guna2HtmlLabel orderLbl;
     }
 }

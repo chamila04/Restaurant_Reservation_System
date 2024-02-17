@@ -36,13 +36,11 @@ namespace Restaurant_Reservation_system
             GRIDVIEW gridview = new GRIDVIEW();
             gridview.Show();
             this.Hide();
-
         }
-
-        private void foodBtn_Click(object sender, EventArgs e)
+        private void foodBtn_Click_1(object sender, EventArgs e)
         {
-            food_details food_Details = new food_details();
-            food_Details.Show();
+            food_details food_details = new food_details();
+            food_details.Show();
             this.Hide();
         }
     }
