@@ -58,19 +58,20 @@
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2NumericUpDown2 = new Guna.UI2.WinForms.Guna2NumericUpDown();
+            this.seaup = new Guna.UI2.WinForms.Guna2NumericUpDown();
             this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2NumericUpDown4 = new Guna.UI2.WinForms.Guna2NumericUpDown();
+            this.kottuup = new Guna.UI2.WinForms.Guna2NumericUpDown();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.priceLbl = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.nameLbl1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.setectBtn1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2NumericUpDown1 = new Guna.UI2.WinForms.Guna2NumericUpDown();
+            this.texttot = new System.Windows.Forms.TextBox();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel8.SuspendLayout();
             this.guna2Panel6.SuspendLayout();
@@ -84,10 +85,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown3)).BeginInit();
             this.guna2Panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.seaup)).BeginInit();
             this.guna2Panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kottuup)).BeginInit();
             this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown1)).BeginInit();
@@ -107,13 +108,14 @@
             this.guna2Panel1.Controls.Add(this.guna2Panel2);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(1020, 640);
             this.guna2Panel1.TabIndex = 0;
             // 
             // guna2Panel8
             // 
+            this.guna2Panel8.Controls.Add(this.texttot);
             this.guna2Panel8.Controls.Add(this.orderLbl);
             this.guna2Panel8.Controls.Add(this.totpriLbl);
             this.guna2Panel8.Controls.Add(this.guna2HtmlLabel11);
@@ -121,7 +123,7 @@
             this.guna2Panel8.Controls.Add(this.guna2HtmlLabel12);
             this.guna2Panel8.FillColor = System.Drawing.Color.White;
             this.guna2Panel8.Location = new System.Drawing.Point(760, 26);
-            this.guna2Panel8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Panel8.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Panel8.Name = "guna2Panel8";
             this.guna2Panel8.Size = new System.Drawing.Size(219, 557);
             this.guna2Panel8.TabIndex = 10;
@@ -132,7 +134,7 @@
             this.orderLbl.BackColor = System.Drawing.Color.Transparent;
             this.orderLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.orderLbl.Location = new System.Drawing.Point(9, 98);
-            this.orderLbl.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.orderLbl.Margin = new System.Windows.Forms.Padding(2);
             this.orderLbl.Name = "orderLbl";
             this.orderLbl.Size = new System.Drawing.Size(201, 294);
             this.orderLbl.TabIndex = 9;
@@ -144,7 +146,7 @@
             this.totpriLbl.BackColor = System.Drawing.Color.Transparent;
             this.totpriLbl.Font = new System.Drawing.Font("Segoe UI Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.totpriLbl.Location = new System.Drawing.Point(146, 415);
-            this.totpriLbl.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.totpriLbl.Margin = new System.Windows.Forms.Padding(2);
             this.totpriLbl.Name = "totpriLbl";
             this.totpriLbl.Size = new System.Drawing.Size(87, 34);
             this.totpriLbl.TabIndex = 8;
@@ -156,7 +158,7 @@
             this.guna2HtmlLabel11.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel11.Font = new System.Drawing.Font("Segoe UI Black", 10F, System.Drawing.FontStyle.Bold);
             this.guna2HtmlLabel11.Location = new System.Drawing.Point(16, 415);
-            this.guna2HtmlLabel11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2HtmlLabel11.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel11.Name = "guna2HtmlLabel11";
             this.guna2HtmlLabel11.Size = new System.Drawing.Size(70, 30);
             this.guna2HtmlLabel11.TabIndex = 7;
@@ -177,7 +179,7 @@
             this.orderBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(93)))), ((int)(((byte)(4)))));
             this.orderBtn.HoverState.ForeColor = System.Drawing.Color.Black;
             this.orderBtn.Location = new System.Drawing.Point(40, 475);
-            this.orderBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.orderBtn.Margin = new System.Windows.Forms.Padding(2);
             this.orderBtn.Name = "orderBtn";
             this.orderBtn.Size = new System.Drawing.Size(135, 37);
             this.orderBtn.TabIndex = 6;
@@ -190,7 +192,7 @@
             this.guna2HtmlLabel12.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel12.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold);
             this.guna2HtmlLabel12.Location = new System.Drawing.Point(16, 32);
-            this.guna2HtmlLabel12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2HtmlLabel12.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel12.Name = "guna2HtmlLabel12";
             this.guna2HtmlLabel12.Size = new System.Drawing.Size(194, 46);
             this.guna2HtmlLabel12.TabIndex = 5;
@@ -207,7 +209,7 @@
             this.guna2Panel6.Controls.Add(this.guna2Button4);
             this.guna2Panel6.Controls.Add(this.guna2NumericUpDown5);
             this.guna2Panel6.Location = new System.Drawing.Point(32, 609);
-            this.guna2Panel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Panel6.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Panel6.Name = "guna2Panel6";
             this.guna2Panel6.Size = new System.Drawing.Size(664, 94);
             this.guna2Panel6.TabIndex = 9;
@@ -218,7 +220,7 @@
             this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel7.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.guna2HtmlLabel7.Location = new System.Drawing.Point(566, 10);
-            this.guna2HtmlLabel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2HtmlLabel7.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
             this.guna2HtmlLabel7.Size = new System.Drawing.Size(117, 31);
             this.guna2HtmlLabel7.TabIndex = 4;
@@ -230,7 +232,7 @@
             this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel8.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.guna2HtmlLabel8.Location = new System.Drawing.Point(93, 10);
-            this.guna2HtmlLabel8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2HtmlLabel8.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
             this.guna2HtmlLabel8.Size = new System.Drawing.Size(268, 31);
             this.guna2HtmlLabel8.TabIndex = 3;
@@ -243,7 +245,7 @@
             this.guna2PictureBox5.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox5.ImageRotate = 0F;
             this.guna2PictureBox5.Location = new System.Drawing.Point(-5, 0);
-            this.guna2PictureBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2PictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.guna2PictureBox5.Name = "guna2PictureBox5";
             this.guna2PictureBox5.Size = new System.Drawing.Size(94, 94);
             this.guna2PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -262,7 +264,7 @@
             this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.guna2Button4.ForeColor = System.Drawing.Color.Black;
             this.guna2Button4.Location = new System.Drawing.Point(529, 54);
-            this.guna2Button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Button4.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Button4.Name = "guna2Button4";
             this.guna2Button4.Size = new System.Drawing.Size(116, 31);
             this.guna2Button4.TabIndex = 1;
@@ -291,7 +293,7 @@
             this.guna2Panel7.Controls.Add(this.guna2Button5);
             this.guna2Panel7.Controls.Add(this.guna2NumericUpDown6);
             this.guna2Panel7.Location = new System.Drawing.Point(32, 492);
-            this.guna2Panel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Panel7.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Panel7.Name = "guna2Panel7";
             this.guna2Panel7.Size = new System.Drawing.Size(664, 94);
             this.guna2Panel7.TabIndex = 8;
@@ -302,7 +304,7 @@
             this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel9.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.guna2HtmlLabel9.Location = new System.Drawing.Point(566, 10);
-            this.guna2HtmlLabel9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2HtmlLabel9.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
             this.guna2HtmlLabel9.Size = new System.Drawing.Size(117, 31);
             this.guna2HtmlLabel9.TabIndex = 4;
@@ -314,7 +316,7 @@
             this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel10.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.guna2HtmlLabel10.Location = new System.Drawing.Point(93, 10);
-            this.guna2HtmlLabel10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2HtmlLabel10.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
             this.guna2HtmlLabel10.Size = new System.Drawing.Size(268, 31);
             this.guna2HtmlLabel10.TabIndex = 3;
@@ -327,7 +329,7 @@
             this.guna2PictureBox6.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox6.ImageRotate = 0F;
             this.guna2PictureBox6.Location = new System.Drawing.Point(-5, 0);
-            this.guna2PictureBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2PictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.guna2PictureBox6.Name = "guna2PictureBox6";
             this.guna2PictureBox6.Size = new System.Drawing.Size(94, 94);
             this.guna2PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -346,7 +348,7 @@
             this.guna2Button5.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.guna2Button5.ForeColor = System.Drawing.Color.Black;
             this.guna2Button5.Location = new System.Drawing.Point(529, 54);
-            this.guna2Button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Button5.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Button5.Name = "guna2Button5";
             this.guna2Button5.Size = new System.Drawing.Size(116, 31);
             this.guna2Button5.TabIndex = 1;
@@ -375,7 +377,7 @@
             this.guna2Panel4.Controls.Add(this.guna2Button2);
             this.guna2Panel4.Controls.Add(this.guna2NumericUpDown3);
             this.guna2Panel4.Location = new System.Drawing.Point(32, 377);
-            this.guna2Panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Panel4.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Panel4.Name = "guna2Panel4";
             this.guna2Panel4.Size = new System.Drawing.Size(664, 94);
             this.guna2Panel4.TabIndex = 7;
@@ -386,7 +388,7 @@
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.guna2HtmlLabel3.Location = new System.Drawing.Point(566, 10);
-            this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
             this.guna2HtmlLabel3.Size = new System.Drawing.Size(117, 31);
             this.guna2HtmlLabel3.TabIndex = 4;
@@ -398,7 +400,7 @@
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.guna2HtmlLabel4.Location = new System.Drawing.Point(93, 10);
-            this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
             this.guna2HtmlLabel4.Size = new System.Drawing.Size(268, 31);
             this.guna2HtmlLabel4.TabIndex = 3;
@@ -411,7 +413,7 @@
             this.guna2PictureBox3.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox3.ImageRotate = 0F;
             this.guna2PictureBox3.Location = new System.Drawing.Point(-5, 0);
-            this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.guna2PictureBox3.Name = "guna2PictureBox3";
             this.guna2PictureBox3.Size = new System.Drawing.Size(94, 94);
             this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -430,7 +432,7 @@
             this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.guna2Button2.ForeColor = System.Drawing.Color.Black;
             this.guna2Button2.Location = new System.Drawing.Point(529, 54);
-            this.guna2Button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Button2.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(116, 31);
             this.guna2Button2.TabIndex = 1;
@@ -457,9 +459,9 @@
             this.guna2Panel3.Controls.Add(this.guna2HtmlLabel2);
             this.guna2Panel3.Controls.Add(this.guna2PictureBox2);
             this.guna2Panel3.Controls.Add(this.guna2Button1);
-            this.guna2Panel3.Controls.Add(this.guna2NumericUpDown2);
+            this.guna2Panel3.Controls.Add(this.seaup);
             this.guna2Panel3.Location = new System.Drawing.Point(32, 141);
-            this.guna2Panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Panel3.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.Size = new System.Drawing.Size(664, 94);
             this.guna2Panel3.TabIndex = 5;
@@ -470,7 +472,7 @@
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(566, 10);
-            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(117, 31);
             this.guna2HtmlLabel1.TabIndex = 4;
@@ -482,7 +484,7 @@
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(93, 10);
-            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(268, 31);
             this.guna2HtmlLabel2.TabIndex = 3;
@@ -495,7 +497,7 @@
             this.guna2PictureBox2.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox2.ImageRotate = 0F;
             this.guna2PictureBox2.Location = new System.Drawing.Point(-5, 0);
-            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
             this.guna2PictureBox2.Size = new System.Drawing.Size(94, 94);
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -514,23 +516,23 @@
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.guna2Button1.ForeColor = System.Drawing.Color.Black;
             this.guna2Button1.Location = new System.Drawing.Point(529, 54);
-            this.guna2Button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(116, 31);
             this.guna2Button1.TabIndex = 1;
             this.guna2Button1.Text = "select";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
-            // guna2NumericUpDown2
+            // seaup
             // 
-            this.guna2NumericUpDown2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2NumericUpDown2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2NumericUpDown2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2NumericUpDown2.Location = new System.Drawing.Point(129, 54);
-            this.guna2NumericUpDown2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.guna2NumericUpDown2.Name = "guna2NumericUpDown2";
-            this.guna2NumericUpDown2.Size = new System.Drawing.Size(99, 31);
-            this.guna2NumericUpDown2.TabIndex = 2;
+            this.seaup.BackColor = System.Drawing.Color.Transparent;
+            this.seaup.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.seaup.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.seaup.Location = new System.Drawing.Point(129, 54);
+            this.seaup.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.seaup.Name = "seaup";
+            this.seaup.Size = new System.Drawing.Size(99, 31);
+            this.seaup.TabIndex = 2;
             // 
             // guna2Panel5
             // 
@@ -541,9 +543,9 @@
             this.guna2Panel5.Controls.Add(this.guna2HtmlLabel6);
             this.guna2Panel5.Controls.Add(this.guna2PictureBox4);
             this.guna2Panel5.Controls.Add(this.guna2Button3);
-            this.guna2Panel5.Controls.Add(this.guna2NumericUpDown4);
+            this.guna2Panel5.Controls.Add(this.kottuup);
             this.guna2Panel5.Location = new System.Drawing.Point(32, 260);
-            this.guna2Panel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Panel5.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Panel5.Name = "guna2Panel5";
             this.guna2Panel5.Size = new System.Drawing.Size(664, 94);
             this.guna2Panel5.TabIndex = 6;
@@ -554,7 +556,7 @@
             this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel5.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.guna2HtmlLabel5.Location = new System.Drawing.Point(566, 10);
-            this.guna2HtmlLabel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2HtmlLabel5.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
             this.guna2HtmlLabel5.Size = new System.Drawing.Size(117, 31);
             this.guna2HtmlLabel5.TabIndex = 4;
@@ -566,7 +568,7 @@
             this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel6.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.guna2HtmlLabel6.Location = new System.Drawing.Point(93, 10);
-            this.guna2HtmlLabel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2HtmlLabel6.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
             this.guna2HtmlLabel6.Size = new System.Drawing.Size(268, 31);
             this.guna2HtmlLabel6.TabIndex = 3;
@@ -579,7 +581,7 @@
             this.guna2PictureBox4.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox4.ImageRotate = 0F;
             this.guna2PictureBox4.Location = new System.Drawing.Point(-5, 0);
-            this.guna2PictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2PictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.guna2PictureBox4.Name = "guna2PictureBox4";
             this.guna2PictureBox4.Size = new System.Drawing.Size(94, 94);
             this.guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -598,23 +600,23 @@
             this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.guna2Button3.ForeColor = System.Drawing.Color.Black;
             this.guna2Button3.Location = new System.Drawing.Point(529, 54);
-            this.guna2Button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Button3.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Button3.Name = "guna2Button3";
             this.guna2Button3.Size = new System.Drawing.Size(116, 31);
             this.guna2Button3.TabIndex = 1;
             this.guna2Button3.Text = "select";
             this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
-            // guna2NumericUpDown4
+            // kottuup
             // 
-            this.guna2NumericUpDown4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2NumericUpDown4.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2NumericUpDown4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2NumericUpDown4.Location = new System.Drawing.Point(129, 54);
-            this.guna2NumericUpDown4.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.guna2NumericUpDown4.Name = "guna2NumericUpDown4";
-            this.guna2NumericUpDown4.Size = new System.Drawing.Size(99, 31);
-            this.guna2NumericUpDown4.TabIndex = 2;
+            this.kottuup.BackColor = System.Drawing.Color.Transparent;
+            this.kottuup.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.kottuup.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.kottuup.Location = new System.Drawing.Point(129, 54);
+            this.kottuup.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.kottuup.Name = "kottuup";
+            this.kottuup.Size = new System.Drawing.Size(99, 31);
+            this.kottuup.TabIndex = 2;
             // 
             // guna2Panel2
             // 
@@ -627,7 +629,7 @@
             this.guna2Panel2.Controls.Add(this.setectBtn1);
             this.guna2Panel2.Controls.Add(this.guna2NumericUpDown1);
             this.guna2Panel2.Location = new System.Drawing.Point(32, 24);
-            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.Size = new System.Drawing.Size(664, 94);
             this.guna2Panel2.TabIndex = 0;
@@ -638,7 +640,7 @@
             this.priceLbl.BackColor = System.Drawing.Color.Transparent;
             this.priceLbl.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.priceLbl.Location = new System.Drawing.Point(566, 10);
-            this.priceLbl.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.priceLbl.Margin = new System.Windows.Forms.Padding(2);
             this.priceLbl.Name = "priceLbl";
             this.priceLbl.Size = new System.Drawing.Size(117, 31);
             this.priceLbl.TabIndex = 4;
@@ -650,7 +652,7 @@
             this.nameLbl1.BackColor = System.Drawing.Color.Transparent;
             this.nameLbl1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.nameLbl1.Location = new System.Drawing.Point(111, 10);
-            this.nameLbl1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.nameLbl1.Margin = new System.Windows.Forms.Padding(2);
             this.nameLbl1.Name = "nameLbl1";
             this.nameLbl1.Size = new System.Drawing.Size(250, 31);
             this.nameLbl1.TabIndex = 3;
@@ -663,7 +665,7 @@
             this.guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.ImageRotate = 0F;
             this.guna2PictureBox1.Location = new System.Drawing.Point(2, 2);
-            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.Size = new System.Drawing.Size(94, 90);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -682,7 +684,7 @@
             this.setectBtn1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.setectBtn1.ForeColor = System.Drawing.Color.Black;
             this.setectBtn1.Location = new System.Drawing.Point(529, 54);
-            this.setectBtn1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.setectBtn1.Margin = new System.Windows.Forms.Padding(2);
             this.setectBtn1.Name = "setectBtn1";
             this.setectBtn1.Size = new System.Drawing.Size(116, 31);
             this.setectBtn1.TabIndex = 1;
@@ -700,6 +702,13 @@
             this.guna2NumericUpDown1.Size = new System.Drawing.Size(99, 31);
             this.guna2NumericUpDown1.TabIndex = 2;
             // 
+            // texttot
+            // 
+            this.texttot.Location = new System.Drawing.Point(91, 416);
+            this.texttot.Name = "texttot";
+            this.texttot.Size = new System.Drawing.Size(100, 20);
+            this.texttot.TabIndex = 10;
+            // 
             // Food
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -707,11 +716,12 @@
             this.ClientSize = new System.Drawing.Size(1020, 640);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Food";
             this.Text = "Food";
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel8.ResumeLayout(false);
+            this.guna2Panel8.PerformLayout();
             this.guna2Panel6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown5)).EndInit();
@@ -723,10 +733,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown3)).EndInit();
             this.guna2Panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.seaup)).EndInit();
             this.guna2Panel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kottuup)).EndInit();
             this.guna2Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown1)).EndInit();
@@ -766,18 +776,19 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2NumericUpDown guna2NumericUpDown2;
+        private Guna.UI2.WinForms.Guna2NumericUpDown seaup;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel5;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox4;
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
-        private Guna.UI2.WinForms.Guna2NumericUpDown guna2NumericUpDown4;
+        private Guna.UI2.WinForms.Guna2NumericUpDown kottuup;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel8;
         private Guna.UI2.WinForms.Guna2HtmlLabel orderLbl;
         private Guna.UI2.WinForms.Guna2HtmlLabel totpriLbl;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel11;
         private Guna.UI2.WinForms.Guna2Button orderBtn;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel12;
+        private System.Windows.Forms.TextBox texttot;
     }
 }

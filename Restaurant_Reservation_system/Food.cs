@@ -55,11 +55,12 @@ namespace Restaurant_Reservation_system
         }
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-
+            fprice2 = (int)seaup.Value*1000;
         }
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
+            fprice3 = (int)kottuup.Value*2000;
 
         }
 
@@ -80,7 +81,9 @@ namespace Restaurant_Reservation_system
 
         private void orderBtn_Click(object sender, EventArgs e)
         {
-
+            Calculate cal = new Calculate();
+            cal.Total = fprice1 + fprice2 + fprice3 + fprice4 + fprice5;
+            texttot.Text=cal.Total.ToString();
         }
     }
 }
