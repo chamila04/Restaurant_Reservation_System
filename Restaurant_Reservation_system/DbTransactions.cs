@@ -126,7 +126,6 @@ namespace Restaurant_Reservation_system
                 return false;
             }
         }
-
         // detete food details using food name
         public bool deleteFood(string foodName)
         {

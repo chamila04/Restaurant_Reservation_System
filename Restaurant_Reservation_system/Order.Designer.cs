@@ -125,7 +125,6 @@
             this.Text = "Order";
             this.guna2Panel1.ResumeLayout(false);
             this.ResumeLayout(false);
-
         }
 
         #endregion
