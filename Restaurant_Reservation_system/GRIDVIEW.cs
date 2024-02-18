@@ -58,9 +58,10 @@ namespace Restaurant_Reservation_system
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            DeleteEmployee delete = new DeleteEmployee();
-            delete.Show();
-            this.Hide();
+            //    DeleteEmployee delete = new DeleteEmployee();
+            //    delete.Show();
+            //    this.Hide();
+            //}
         }
     }
 }

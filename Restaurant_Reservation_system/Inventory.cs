@@ -56,9 +56,9 @@ namespace Restaurant_Reservation_system
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            DeleteInventory delete = new DeleteInventory();
-            delete.Show();
-            this.Hide();
+            //DeleteInventory delete = new DeleteInventory();
+            //delete.Show();
+            //this.Hide();
         }
     }
 }
