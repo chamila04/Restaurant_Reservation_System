@@ -134,11 +134,12 @@
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.Location = new System.Drawing.Point(951, 33);
-            this.guna2Button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(139, 44);
             this.guna2Button1.TabIndex = 5;
             this.guna2Button1.Text = "DELETE";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // Btnnew
             // 
@@ -151,7 +152,7 @@
             this.Btnnew.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.Btnnew.ForeColor = System.Drawing.Color.White;
             this.Btnnew.Location = new System.Drawing.Point(1125, 33);
-            this.Btnnew.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Btnnew.Margin = new System.Windows.Forms.Padding(4);
             this.Btnnew.Name = "Btnnew";
             this.Btnnew.Size = new System.Drawing.Size(139, 44);
             this.Btnnew.TabIndex = 4;
@@ -167,7 +168,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "GRIDVIEW";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GRIDVIEW";
