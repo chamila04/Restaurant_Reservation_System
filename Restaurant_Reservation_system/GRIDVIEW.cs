@@ -53,6 +53,14 @@ namespace Restaurant_Reservation_system
         {
             EmployeeReg er = new EmployeeReg();
             er.Show();
+            this.Hide();
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            DeleteEmployee delete = new DeleteEmployee();
+            delete.Show();
+            this.Hide();
         }
     }
 }

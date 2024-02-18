@@ -30,6 +30,7 @@
         {
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel8 = new Guna.UI2.WinForms.Guna2Panel();
+            this.texttot = new System.Windows.Forms.TextBox();
             this.orderLbl = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.totpriLbl = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -40,19 +41,19 @@
             this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2NumericUpDown5 = new Guna.UI2.WinForms.Guna2NumericUpDown();
+            this.sefup = new Guna.UI2.WinForms.Guna2NumericUpDown();
             this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2PictureBox6 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2NumericUpDown6 = new Guna.UI2.WinForms.Guna2NumericUpDown();
+            this.vegup = new Guna.UI2.WinForms.Guna2NumericUpDown();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2NumericUpDown3 = new Guna.UI2.WinForms.Guna2NumericUpDown();
+            this.grillup = new Guna.UI2.WinForms.Guna2NumericUpDown();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -70,19 +71,18 @@
             this.nameLbl1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.setectBtn1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2NumericUpDown1 = new Guna.UI2.WinForms.Guna2NumericUpDown();
-            this.texttot = new System.Windows.Forms.TextBox();
+            this.biriup = new Guna.UI2.WinForms.Guna2NumericUpDown();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel8.SuspendLayout();
             this.guna2Panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sefup)).BeginInit();
             this.guna2Panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vegup)).BeginInit();
             this.guna2Panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grillup)).BeginInit();
             this.guna2Panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.seaup)).BeginInit();
@@ -91,7 +91,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.kottuup)).BeginInit();
             this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.biriup)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Panel1
@@ -115,25 +115,33 @@
             // 
             // guna2Panel8
             // 
+            this.guna2Panel8.BackColor = System.Drawing.Color.RosyBrown;
             this.guna2Panel8.Controls.Add(this.texttot);
             this.guna2Panel8.Controls.Add(this.orderLbl);
             this.guna2Panel8.Controls.Add(this.totpriLbl);
             this.guna2Panel8.Controls.Add(this.guna2HtmlLabel11);
             this.guna2Panel8.Controls.Add(this.orderBtn);
             this.guna2Panel8.Controls.Add(this.guna2HtmlLabel12);
-            this.guna2Panel8.FillColor = System.Drawing.Color.White;
-            this.guna2Panel8.Location = new System.Drawing.Point(760, 26);
+            this.guna2Panel8.FillColor = System.Drawing.Color.Turquoise;
+            this.guna2Panel8.Location = new System.Drawing.Point(755, 78);
             this.guna2Panel8.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Panel8.Name = "guna2Panel8";
-            this.guna2Panel8.Size = new System.Drawing.Size(219, 557);
+            this.guna2Panel8.Size = new System.Drawing.Size(218, 594);
             this.guna2Panel8.TabIndex = 10;
+            // 
+            // texttot
+            // 
+            this.texttot.Location = new System.Drawing.Point(75, 415);
+            this.texttot.Name = "texttot";
+            this.texttot.Size = new System.Drawing.Size(100, 20);
+            this.texttot.TabIndex = 10;
             // 
             // orderLbl
             // 
             this.orderLbl.AutoSize = false;
             this.orderLbl.BackColor = System.Drawing.Color.Transparent;
             this.orderLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.orderLbl.Location = new System.Drawing.Point(9, 98);
+            this.orderLbl.Location = new System.Drawing.Point(9, 93);
             this.orderLbl.Margin = new System.Windows.Forms.Padding(2);
             this.orderLbl.Name = "orderLbl";
             this.orderLbl.Size = new System.Drawing.Size(201, 294);
@@ -173,7 +181,7 @@
             this.orderBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.orderBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.orderBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.orderBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(195)))), ((int)(((byte)(0)))));
+            this.orderBtn.FillColor = System.Drawing.Color.Lime;
             this.orderBtn.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.orderBtn.ForeColor = System.Drawing.Color.White;
             this.orderBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(93)))), ((int)(((byte)(4)))));
@@ -191,10 +199,10 @@
             this.guna2HtmlLabel12.AutoSize = false;
             this.guna2HtmlLabel12.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel12.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold);
-            this.guna2HtmlLabel12.Location = new System.Drawing.Point(16, 32);
+            this.guna2HtmlLabel12.Location = new System.Drawing.Point(40, 20);
             this.guna2HtmlLabel12.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel12.Name = "guna2HtmlLabel12";
-            this.guna2HtmlLabel12.Size = new System.Drawing.Size(194, 46);
+            this.guna2HtmlLabel12.Size = new System.Drawing.Size(159, 46);
             this.guna2HtmlLabel12.TabIndex = 5;
             this.guna2HtmlLabel12.Text = "My orders";
             // 
@@ -207,7 +215,7 @@
             this.guna2Panel6.Controls.Add(this.guna2HtmlLabel8);
             this.guna2Panel6.Controls.Add(this.guna2PictureBox5);
             this.guna2Panel6.Controls.Add(this.guna2Button4);
-            this.guna2Panel6.Controls.Add(this.guna2NumericUpDown5);
+            this.guna2Panel6.Controls.Add(this.sefup);
             this.guna2Panel6.Location = new System.Drawing.Point(32, 609);
             this.guna2Panel6.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Panel6.Name = "guna2Panel6";
@@ -224,7 +232,7 @@
             this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
             this.guna2HtmlLabel7.Size = new System.Drawing.Size(117, 31);
             this.guna2HtmlLabel7.TabIndex = 4;
-            this.guna2HtmlLabel7.Text = "Rs. 600.00";
+            this.guna2HtmlLabel7.Text = "Rs. 800.00";
             // 
             // guna2HtmlLabel8
             // 
@@ -271,16 +279,16 @@
             this.guna2Button4.Text = "select";
             this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
             // 
-            // guna2NumericUpDown5
+            // sefup
             // 
-            this.guna2NumericUpDown5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2NumericUpDown5.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2NumericUpDown5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2NumericUpDown5.Location = new System.Drawing.Point(129, 54);
-            this.guna2NumericUpDown5.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.guna2NumericUpDown5.Name = "guna2NumericUpDown5";
-            this.guna2NumericUpDown5.Size = new System.Drawing.Size(99, 31);
-            this.guna2NumericUpDown5.TabIndex = 2;
+            this.sefup.BackColor = System.Drawing.Color.Transparent;
+            this.sefup.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.sefup.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sefup.Location = new System.Drawing.Point(129, 54);
+            this.sefup.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.sefup.Name = "sefup";
+            this.sefup.Size = new System.Drawing.Size(99, 31);
+            this.sefup.TabIndex = 2;
             // 
             // guna2Panel7
             // 
@@ -291,7 +299,7 @@
             this.guna2Panel7.Controls.Add(this.guna2HtmlLabel10);
             this.guna2Panel7.Controls.Add(this.guna2PictureBox6);
             this.guna2Panel7.Controls.Add(this.guna2Button5);
-            this.guna2Panel7.Controls.Add(this.guna2NumericUpDown6);
+            this.guna2Panel7.Controls.Add(this.vegup);
             this.guna2Panel7.Location = new System.Drawing.Point(32, 492);
             this.guna2Panel7.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Panel7.Name = "guna2Panel7";
@@ -320,7 +328,7 @@
             this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
             this.guna2HtmlLabel10.Size = new System.Drawing.Size(268, 31);
             this.guna2HtmlLabel10.TabIndex = 3;
-            this.guna2HtmlLabel10.Text = "Mix Fried Rice";
+            this.guna2HtmlLabel10.Text = "Vegetable Stir-Fry Noodles";
             // 
             // guna2PictureBox6
             // 
@@ -355,16 +363,16 @@
             this.guna2Button5.Text = "select";
             this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
             // 
-            // guna2NumericUpDown6
+            // vegup
             // 
-            this.guna2NumericUpDown6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2NumericUpDown6.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2NumericUpDown6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2NumericUpDown6.Location = new System.Drawing.Point(129, 54);
-            this.guna2NumericUpDown6.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.guna2NumericUpDown6.Name = "guna2NumericUpDown6";
-            this.guna2NumericUpDown6.Size = new System.Drawing.Size(99, 31);
-            this.guna2NumericUpDown6.TabIndex = 2;
+            this.vegup.BackColor = System.Drawing.Color.Transparent;
+            this.vegup.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.vegup.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vegup.Location = new System.Drawing.Point(129, 54);
+            this.vegup.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.vegup.Name = "vegup";
+            this.vegup.Size = new System.Drawing.Size(99, 31);
+            this.vegup.TabIndex = 2;
             // 
             // guna2Panel4
             // 
@@ -375,7 +383,7 @@
             this.guna2Panel4.Controls.Add(this.guna2HtmlLabel4);
             this.guna2Panel4.Controls.Add(this.guna2PictureBox3);
             this.guna2Panel4.Controls.Add(this.guna2Button2);
-            this.guna2Panel4.Controls.Add(this.guna2NumericUpDown3);
+            this.guna2Panel4.Controls.Add(this.grillup);
             this.guna2Panel4.Location = new System.Drawing.Point(32, 377);
             this.guna2Panel4.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Panel4.Name = "guna2Panel4";
@@ -392,7 +400,7 @@
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
             this.guna2HtmlLabel3.Size = new System.Drawing.Size(117, 31);
             this.guna2HtmlLabel3.TabIndex = 4;
-            this.guna2HtmlLabel3.Text = "Rs. 600.00";
+            this.guna2HtmlLabel3.Text = "Rs. 850.00";
             // 
             // guna2HtmlLabel4
             // 
@@ -404,7 +412,7 @@
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
             this.guna2HtmlLabel4.Size = new System.Drawing.Size(268, 31);
             this.guna2HtmlLabel4.TabIndex = 3;
-            this.guna2HtmlLabel4.Text = "Beef Fried Rice";
+            this.guna2HtmlLabel4.Text = "Grilled Fish with Garlic Butter Sauce";
             // 
             // guna2PictureBox3
             // 
@@ -439,16 +447,16 @@
             this.guna2Button2.Text = "select";
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
-            // guna2NumericUpDown3
+            // grillup
             // 
-            this.guna2NumericUpDown3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2NumericUpDown3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2NumericUpDown3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2NumericUpDown3.Location = new System.Drawing.Point(129, 54);
-            this.guna2NumericUpDown3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.guna2NumericUpDown3.Name = "guna2NumericUpDown3";
-            this.guna2NumericUpDown3.Size = new System.Drawing.Size(99, 31);
-            this.guna2NumericUpDown3.TabIndex = 2;
+            this.grillup.BackColor = System.Drawing.Color.Transparent;
+            this.grillup.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.grillup.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grillup.Location = new System.Drawing.Point(129, 54);
+            this.grillup.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.grillup.Name = "grillup";
+            this.grillup.Size = new System.Drawing.Size(99, 31);
+            this.grillup.TabIndex = 2;
             // 
             // guna2Panel3
             // 
@@ -474,21 +482,21 @@
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(566, 10);
             this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(117, 31);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(96, 31);
             this.guna2HtmlLabel1.TabIndex = 4;
-            this.guna2HtmlLabel1.Text = "Rs. 600.00";
+            this.guna2HtmlLabel1.Text = "Rs. 650.00";
             // 
             // guna2HtmlLabel2
             // 
             this.guna2HtmlLabel2.AutoSize = false;
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(93, 10);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(111, 10);
             this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(268, 31);
             this.guna2HtmlLabel2.TabIndex = 3;
-            this.guna2HtmlLabel2.Text = "Spicy Seafood Pasta";
+            this.guna2HtmlLabel2.Text = "Sri Lankan Rice and Curry";
             // 
             // guna2PictureBox2
             // 
@@ -558,21 +566,21 @@
             this.guna2HtmlLabel5.Location = new System.Drawing.Point(566, 10);
             this.guna2HtmlLabel5.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(117, 31);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(96, 31);
             this.guna2HtmlLabel5.TabIndex = 4;
-            this.guna2HtmlLabel5.Text = "Rs. 600.00";
+            this.guna2HtmlLabel5.Text = "Rs. 750.00";
             // 
             // guna2HtmlLabel6
             // 
             this.guna2HtmlLabel6.AutoSize = false;
             this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel6.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.guna2HtmlLabel6.Location = new System.Drawing.Point(93, 10);
+            this.guna2HtmlLabel6.Location = new System.Drawing.Point(111, 10);
             this.guna2HtmlLabel6.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
             this.guna2HtmlLabel6.Size = new System.Drawing.Size(268, 31);
             this.guna2HtmlLabel6.TabIndex = 3;
-            this.guna2HtmlLabel6.Text = "Chicken Kottu";
+            this.guna2HtmlLabel6.Text = "Beef Stew with Roti";
             // 
             // guna2PictureBox4
             // 
@@ -627,7 +635,7 @@
             this.guna2Panel2.Controls.Add(this.nameLbl1);
             this.guna2Panel2.Controls.Add(this.guna2PictureBox1);
             this.guna2Panel2.Controls.Add(this.setectBtn1);
-            this.guna2Panel2.Controls.Add(this.guna2NumericUpDown1);
+            this.guna2Panel2.Controls.Add(this.biriup);
             this.guna2Panel2.Location = new System.Drawing.Point(32, 24);
             this.guna2Panel2.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Panel2.Name = "guna2Panel2";
@@ -642,9 +650,9 @@
             this.priceLbl.Location = new System.Drawing.Point(566, 10);
             this.priceLbl.Margin = new System.Windows.Forms.Padding(2);
             this.priceLbl.Name = "priceLbl";
-            this.priceLbl.Size = new System.Drawing.Size(117, 31);
+            this.priceLbl.Size = new System.Drawing.Size(96, 31);
             this.priceLbl.TabIndex = 4;
-            this.priceLbl.Text = "Rs. 600.00";
+            this.priceLbl.Text = "Rs. 700.00";
             // 
             // nameLbl1
             // 
@@ -691,23 +699,16 @@
             this.setectBtn1.Text = "select";
             this.setectBtn1.Click += new System.EventHandler(this.setectBtn1_Click);
             // 
-            // guna2NumericUpDown1
+            // biriup
             // 
-            this.guna2NumericUpDown1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2NumericUpDown1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2NumericUpDown1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2NumericUpDown1.Location = new System.Drawing.Point(111, 54);
-            this.guna2NumericUpDown1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.guna2NumericUpDown1.Name = "guna2NumericUpDown1";
-            this.guna2NumericUpDown1.Size = new System.Drawing.Size(99, 31);
-            this.guna2NumericUpDown1.TabIndex = 2;
-            // 
-            // texttot
-            // 
-            this.texttot.Location = new System.Drawing.Point(91, 416);
-            this.texttot.Name = "texttot";
-            this.texttot.Size = new System.Drawing.Size(100, 20);
-            this.texttot.TabIndex = 10;
+            this.biriup.BackColor = System.Drawing.Color.Transparent;
+            this.biriup.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.biriup.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.biriup.Location = new System.Drawing.Point(111, 54);
+            this.biriup.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.biriup.Name = "biriup";
+            this.biriup.Size = new System.Drawing.Size(99, 31);
+            this.biriup.TabIndex = 2;
             // 
             // Food
             // 
@@ -724,13 +725,13 @@
             this.guna2Panel8.PerformLayout();
             this.guna2Panel6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sefup)).EndInit();
             this.guna2Panel7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vegup)).EndInit();
             this.guna2Panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grillup)).EndInit();
             this.guna2Panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.seaup)).EndInit();
@@ -739,7 +740,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.kottuup)).EndInit();
             this.guna2Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.biriup)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -749,7 +750,7 @@
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
-        private Guna.UI2.WinForms.Guna2NumericUpDown guna2NumericUpDown1;
+        private Guna.UI2.WinForms.Guna2NumericUpDown biriup;
         private Guna.UI2.WinForms.Guna2Button setectBtn1;
         private Guna.UI2.WinForms.Guna2HtmlLabel nameLbl1;
         private Guna.UI2.WinForms.Guna2HtmlLabel priceLbl;
@@ -758,19 +759,19 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox5;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
-        private Guna.UI2.WinForms.Guna2NumericUpDown guna2NumericUpDown5;
+        private Guna.UI2.WinForms.Guna2NumericUpDown sefup;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel7;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel9;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel10;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox6;
         private Guna.UI2.WinForms.Guna2Button guna2Button5;
-        private Guna.UI2.WinForms.Guna2NumericUpDown guna2NumericUpDown6;
+        private Guna.UI2.WinForms.Guna2NumericUpDown vegup;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
-        private Guna.UI2.WinForms.Guna2NumericUpDown guna2NumericUpDown3;
+        private Guna.UI2.WinForms.Guna2NumericUpDown grillup;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;

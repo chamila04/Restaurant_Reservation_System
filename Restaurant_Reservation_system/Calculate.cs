@@ -9,11 +9,18 @@ namespace Restaurant_Reservation_system
     public class Calculate
     {
         int total;
+        int drinktotal;
 
         public int Total
         {
             get { return total; }
             set { total = value; }
+        }
+
+        public int DrinkTotal
+        {
+            get { return drinktotal; }
+            set { drinktotal = value; }
         }
     }
 }

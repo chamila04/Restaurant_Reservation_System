@@ -35,7 +35,7 @@
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.empBtn = new Guna.UI2.WinForms.Guna2Button();
             this.foodBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.inventeryBtn = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -109,7 +109,7 @@
             this.empBtn.ForeColor = System.Drawing.Color.White;
             this.empBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.empBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.empBtn.Location = new System.Drawing.Point(60, 235);
+            this.empBtn.Location = new System.Drawing.Point(15, 235);
             this.empBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.empBtn.Name = "empBtn";
             this.empBtn.Size = new System.Drawing.Size(345, 178);
@@ -132,7 +132,7 @@
             this.foodBtn.ForeColor = System.Drawing.Color.White;
             this.foodBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.foodBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.foodBtn.Location = new System.Drawing.Point(453, 235);
+            this.foodBtn.Location = new System.Drawing.Point(468, 235);
             this.foodBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.foodBtn.Name = "foodBtn";
             this.foodBtn.Size = new System.Drawing.Size(345, 178);
@@ -140,27 +140,28 @@
             this.foodBtn.Text = "Food";
             this.foodBtn.Click += new System.EventHandler(this.foodBtn_Click_1);
             // 
-            // guna2Button2
+            // inventeryBtn
             // 
-            this.guna2Button2.AutoRoundedCorners = true;
-            this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.BorderRadius = 88;
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(18)))), ((int)(((byte)(31)))));
-            this.guna2Button2.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.guna2Button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.guna2Button2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button2.Location = new System.Drawing.Point(855, 235);
-            this.guna2Button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(345, 178);
-            this.guna2Button2.TabIndex = 5;
-            this.guna2Button2.Text = "Inventery";
+            this.inventeryBtn.AutoRoundedCorners = true;
+            this.inventeryBtn.BackColor = System.Drawing.Color.Transparent;
+            this.inventeryBtn.BorderRadius = 88;
+            this.inventeryBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.inventeryBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.inventeryBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.inventeryBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.inventeryBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(18)))), ((int)(((byte)(31)))));
+            this.inventeryBtn.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.inventeryBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.inventeryBtn.ForeColor = System.Drawing.Color.White;
+            this.inventeryBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.inventeryBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.inventeryBtn.Location = new System.Drawing.Point(903, 235);
+            this.inventeryBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.inventeryBtn.Name = "inventeryBtn";
+            this.inventeryBtn.Size = new System.Drawing.Size(345, 178);
+            this.inventeryBtn.TabIndex = 5;
+            this.inventeryBtn.Text = "Inventery";
+            this.inventeryBtn.Click += new System.EventHandler(this.inventeryBtn_Click);
             // 
             // AdminDashboard
             // 
@@ -169,7 +170,7 @@
             this.BackgroundImage = global::Restaurant_Reservation_system.Properties.Resources.Untitled_design__7_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1280, 720);
-            this.Controls.Add(this.guna2Button2);
+            this.Controls.Add(this.inventeryBtn);
             this.Controls.Add(this.foodBtn);
             this.Controls.Add(this.empBtn);
             this.Controls.Add(this.guna2PictureBox1);
@@ -193,6 +194,6 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2Button empBtn;
         private Guna.UI2.WinForms.Guna2Button foodBtn;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button inventeryBtn;
     }
 }

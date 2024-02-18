@@ -10,35 +10,31 @@ using System.Windows.Forms;
 
 namespace Restaurant_Reservation_system
 {
-    public partial class Inventoryadd : Form
+    public partial class DeleteInventory : Form
     {
-        public Inventoryadd()
+        public DeleteInventory()
         {
             InitializeComponent();
         }
 
-        private void addbtn_Click(object sender, EventArgs e)
+        private void deleteBtn_Click(object sender, EventArgs e)
         {
             string name = nameText.Text;
-            int quantity = int.Parse(qtyText.Text);
-            int price = int.Parse(priceText.Text);
 
-            DbTransactions inventory = new DbTransactions();
-            bool status = inventory.insertInventory(name, quantity, price);
+            DbTransactions delete = new DbTransactions();
+            bool status = delete.deleteInventory(name);
 
             if (status == true)
             {
-                MessageBox.Show("item added succesfully");
-                Inventory inv = new Inventory();
-                inv.Show();
+                MessageBox.Show("item deleted succesfully");
+                GRIDVIEW gRIDVIEW = new GRIDVIEW();
+                gRIDVIEW.Show();
                 this.Hide();
             }
             if (status == false)
             {
-                MessageBox.Show("item added fail");
+                MessageBox.Show("item delete failed");
                 nameText.Text = "";
-                qtyText.Text = "";
-                priceText.Text = "";
                 nameText.Focus();
                 return;
             }

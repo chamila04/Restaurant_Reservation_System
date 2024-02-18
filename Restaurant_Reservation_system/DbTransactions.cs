@@ -108,12 +108,30 @@ namespace Restaurant_Reservation_system
             }
             
         }
-        public bool insertEmployee(string firstName, string lastName, string address, string position, int telephone)
+        public bool insertEmployee(string firstName, string lastName, string username, string password, string access)
         {
             try
             {
                 MySqlConnection con = new DbConnection().connectDB();
-                string query = "insert into employee_details(first_name,last_name,address,position,tetephone) values('" + firstName + "','" + lastName + "',"+ position +"'," + telephone + ")";
+                string query = "insert into login_details(first_name,last_name,username,password,access) values('" + firstName +"','" + lastName + "','" + password + "','"+ access +"')";
+                MySqlCommand cmd = new MySqlCommand(query, con);
+                con.Open();
+                cmd.ExecuteNonQuery();
+                con.Close();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                return false;
+            }
+        }
+        public bool insertInventory(string name, int quantity, int price)
+        {
+            try
+            {
+                MySqlConnection con = new DbConnection().connectDB();
+                string query = "insert into inventery(name,quantity,price) values('" + name + "','" + quantity + "'," + price + ")";
                 MySqlCommand cmd = new MySqlCommand(query, con);
                 con.Open();
                 cmd.ExecuteNonQuery();
@@ -132,7 +150,7 @@ namespace Restaurant_Reservation_system
             try
             {
                 MySqlConnection con = new DbConnection().connectDB();
-                string query = "delete from food_details where food_name =" + foodName;
+                string query = "delete from food_details where food_name=" + foodName;
                 MySqlCommand cmd = new MySqlCommand(query, con);
                 con.Open();
                 cmd.ExecuteNonQuery();
@@ -145,7 +163,6 @@ namespace Restaurant_Reservation_system
                 return false;
             }
         }
-
         // delete employee deteils using first name
         public bool deleteEmployee(string empName)
         {
@@ -165,7 +182,25 @@ namespace Restaurant_Reservation_system
                 return false;
             }
         }
-
+        // delete inventory items using name
+        public bool deleteInventory(string itemname)
+        {
+            try
+            {
+                MySqlConnection con = new DbConnection().connectDB();
+                string query = "delete from inventery where name=" + itemname;
+                MySqlCommand cmd = new MySqlCommand(query, con);
+                con.Open();
+                cmd.ExecuteNonQuery();
+                con.Close();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                return false;
+            }
+        }
         // update food details using food name
         public bool updateFood(string foodName, string category, int price)
         {
