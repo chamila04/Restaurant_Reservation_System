@@ -83,6 +83,16 @@ namespace Restaurant_Reservation_system.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _6a55f5fb899046a5a75aaf7fa91df62e2 {
+            get {
+                object obj = ResourceManager.GetObject("6a55f5fb899046a5a75aaf7fa91df62e2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _76628592b357751f0e8ac6ad6b467f2b_mongolian_rice_944_531 {
             get {
                 object obj = ResourceManager.GetObject("76628592b357751f0e8ac6ad6b467f2b_mongolian-rice_944_531", resourceCulture);
@@ -126,6 +136,106 @@ namespace Restaurant_Reservation_system.Properties {
         internal static System.Drawing.Bitmap shrimp_fried_rice_on_plate_thumbnail1 {
             get {
                 object obj = ResourceManager.GetObject("shrimp-fried-rice-on-plate-thumbnail1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Untitled_design__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Untitled design (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Untitled_design__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("Untitled design (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Untitled_design__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Untitled design (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Untitled_design__2_1 {
+            get {
+                object obj = ResourceManager.GetObject("Untitled design (2)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Untitled_design__2_2 {
+            get {
+                object obj = ResourceManager.GetObject("Untitled design (2)2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Untitled_design__2_3 {
+            get {
+                object obj = ResourceManager.GetObject("Untitled design (2)3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Untitled_design__3_ {
+            get {
+                object obj = ResourceManager.GetObject("Untitled design (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Untitled_design__3_1 {
+            get {
+                object obj = ResourceManager.GetObject("Untitled design (3)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Untitled_design__5_ {
+            get {
+                object obj = ResourceManager.GetObject("Untitled design (5)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Untitled_design__6_ {
+            get {
+                object obj = ResourceManager.GetObject("Untitled design (6)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -71,7 +71,7 @@ namespace Restaurant_Reservation_system
             orderinfo = foodName + "    " + quantity + " x " + price + " =  " + tprices + "\n";
             //MessageBox.Show(orderinfo);
 
-            orderLbl.Text += "\n" + orderinfo + "\n";
+            labalrice.Text += "\n" + orderinfo + "\n";
             fprice2 = (int)seaup.Value*650;
         }
 
@@ -92,7 +92,7 @@ namespace Restaurant_Reservation_system
             orderinfo = foodName + "    " + quantity + " x " + price + " =  " + tprices + "\n";
             //MessageBox.Show(orderinfo);
 
-            orderLbl.Text += "\n" + orderinfo + "\n";
+            labalroti.Text += "\n" + orderinfo + "\n";
             fprice3 = (int)kottuup.Value*750;
 
         }
@@ -114,7 +114,7 @@ namespace Restaurant_Reservation_system
             orderinfo = foodName + "    " + quantity + " x " + price + " =  " + tprices + "\n";
             //MessageBox.Show(orderinfo);
 
-            orderLbl.Text += "\n" + orderinfo + "\n";
+            labalgrill.Text += "\n" + orderinfo + "\n";
             fprice4 = (int)grillup.Value * 850;
         }
 
@@ -135,7 +135,7 @@ namespace Restaurant_Reservation_system
             orderinfo = foodName + "    " + quantity + " x " + price + " =  " + tprices + "\n";
             //MessageBox.Show(orderinfo);
 
-            orderLbl.Text += "\n" + orderinfo + "\n";
+            labalnood.Text += "\n" + orderinfo + "\n";
             fprice5 = (int)vegup.Value * 600;
         }
 
@@ -156,7 +156,7 @@ namespace Restaurant_Reservation_system
             orderinfo = foodName + "    " + quantity + " x " + price + " =  " + tprices + "\n";
             //MessageBox.Show(orderinfo);
 
-            orderLbl.Text += "\n" + orderinfo + "\n";
+            labalseaf.Text += "\n" + orderinfo + "\n";
             fprice6 = (int)sefup.Value * 800;
         }
 

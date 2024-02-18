@@ -113,7 +113,8 @@ namespace Restaurant_Reservation_system
             try
             {
                 MySqlConnection con = new DbConnection().connectDB();
-                string query = "insert into login_details(first_name,last_name,username,password,access) values('" + firstName +"','" + lastName + "','" + password + "','"+ access +"')";
+                string query = "INSERT INTO  login_details(first_name,last_name,username,password,access) " +
+                    "VALUES ('" + firstName +"','" + lastName + "','" + username + "','" + password + "','"+ access +"')";
                 MySqlCommand cmd = new MySqlCommand(query, con);
                 con.Open();
                 cmd.ExecuteNonQuery();
@@ -150,7 +151,7 @@ namespace Restaurant_Reservation_system
             try
             {
                 MySqlConnection con = new DbConnection().connectDB();
-                string query = "delete from food_details where food_name=" + foodName;
+                string query = "delete from food_details where food_name ('" + foodName + "')" ;
                 MySqlCommand cmd = new MySqlCommand(query, con);
                 con.Open();
                 cmd.ExecuteNonQuery();

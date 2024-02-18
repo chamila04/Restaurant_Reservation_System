@@ -20,8 +20,9 @@ namespace Restaurant_Reservation_system
         private void deleteBtn_Click(object sender, EventArgs e)
         {
             string name = nameText.Text;
-            MessageBox.Show(name);
+            MessageBox.Show("Are you Want to Remove "+name+" from your database." +MessageBoxIcon.Warning);
 
+            
             DbTransactions deletefood = new DbTransactions();
             bool status = deletefood.deleteFood(name);
 
