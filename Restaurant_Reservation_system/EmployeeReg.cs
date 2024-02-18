@@ -24,7 +24,6 @@ namespace Restaurant_Reservation_system
             string username = usernameText.Text;
             string password = passwordText.Text;
             string access = accessCom.SelectedItem.ToString();
-            MessageBox.Show(access);
 
             DbTransactions insert = new DbTransactions();
             bool status= insert.insertEmployee(fname,lname,username,password,access);

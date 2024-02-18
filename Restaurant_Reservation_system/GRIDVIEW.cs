@@ -53,6 +53,7 @@ namespace Restaurant_Reservation_system
         {
             EmployeeReg er = new EmployeeReg();
             er.Show();
+            this.Hide();
         }
     }
 }
