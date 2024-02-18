@@ -31,7 +31,6 @@
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel8 = new Guna.UI2.WinForms.Guna2Panel();
             this.texttot = new System.Windows.Forms.TextBox();
-            this.orderLbl = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.totpriLbl = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.orderBtn = new Guna.UI2.WinForms.Guna2Button();
@@ -72,6 +71,7 @@
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.setectBtn1 = new Guna.UI2.WinForms.Guna2Button();
             this.biriup = new Guna.UI2.WinForms.Guna2NumericUpDown();
+            this.orderLbl = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel8.SuspendLayout();
             this.guna2Panel6.SuspendLayout();
@@ -116,13 +116,13 @@
             // guna2Panel8
             // 
             this.guna2Panel8.BackColor = System.Drawing.Color.RosyBrown;
-            this.guna2Panel8.Controls.Add(this.texttot);
             this.guna2Panel8.Controls.Add(this.orderLbl);
+            this.guna2Panel8.Controls.Add(this.texttot);
             this.guna2Panel8.Controls.Add(this.totpriLbl);
             this.guna2Panel8.Controls.Add(this.guna2HtmlLabel11);
             this.guna2Panel8.Controls.Add(this.orderBtn);
             this.guna2Panel8.Controls.Add(this.guna2HtmlLabel12);
-            this.guna2Panel8.FillColor = System.Drawing.Color.Turquoise;
+            this.guna2Panel8.FillColor = System.Drawing.Color.White;
             this.guna2Panel8.Location = new System.Drawing.Point(1007, 96);
             this.guna2Panel8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Panel8.Name = "guna2Panel8";
@@ -132,22 +132,10 @@
             // texttot
             // 
             this.texttot.Location = new System.Drawing.Point(100, 511);
-            this.texttot.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.texttot.Margin = new System.Windows.Forms.Padding(4);
             this.texttot.Name = "texttot";
             this.texttot.Size = new System.Drawing.Size(132, 22);
             this.texttot.TabIndex = 10;
-            // 
-            // orderLbl
-            // 
-            this.orderLbl.AutoSize = false;
-            this.orderLbl.BackColor = System.Drawing.Color.Transparent;
-            this.orderLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.orderLbl.Location = new System.Drawing.Point(12, 114);
-            this.orderLbl.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.orderLbl.Name = "orderLbl";
-            this.orderLbl.Size = new System.Drawing.Size(317, 362);
-            this.orderLbl.TabIndex = 9;
-            this.orderLbl.Text = null;
             // 
             // totpriLbl
             // 
@@ -711,6 +699,16 @@
             this.biriup.Size = new System.Drawing.Size(132, 38);
             this.biriup.TabIndex = 2;
             // 
+            // orderLbl
+            // 
+            this.orderLbl.AutoSize = false;
+            this.orderLbl.BackColor = System.Drawing.Color.Transparent;
+            this.orderLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
+            this.orderLbl.Location = new System.Drawing.Point(21, 122);
+            this.orderLbl.Name = "orderLbl";
+            this.orderLbl.Size = new System.Drawing.Size(267, 350);
+            this.orderLbl.TabIndex = 11;
+            // 
             // Food
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -786,11 +784,11 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
         private Guna.UI2.WinForms.Guna2NumericUpDown kottuup;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel8;
-        private Guna.UI2.WinForms.Guna2HtmlLabel orderLbl;
         private Guna.UI2.WinForms.Guna2HtmlLabel totpriLbl;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel11;
         private Guna.UI2.WinForms.Guna2Button orderBtn;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel12;
         private System.Windows.Forms.TextBox texttot;
+        private Guna.UI2.WinForms.Guna2HtmlLabel orderLbl;
     }
 }
