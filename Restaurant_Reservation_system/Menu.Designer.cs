@@ -40,20 +40,22 @@
             this.foodBtn = new Guna.UI2.WinForms.Guna2Button();
             this.menuDisPnl = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
+            this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2Panel1
             // 
+            this.guna2Panel1.Controls.Add(this.guna2ControlBox2);
             this.guna2Panel1.Controls.Add(this.guna2Button1);
             this.guna2Panel1.Controls.Add(this.guna2ControlBox1);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(29)))), ((int)(((byte)(61)))));
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1707, 34);
+            this.guna2Panel1.Size = new System.Drawing.Size(1040, 28);
             this.guna2Panel1.TabIndex = 0;
             // 
             // guna2Button1
@@ -69,9 +71,9 @@
             this.guna2Button1.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.Image")));
             this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button1.Location = new System.Drawing.Point(0, 0);
-            this.guna2Button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(115, 34);
+            this.guna2Button1.Size = new System.Drawing.Size(86, 28);
             this.guna2Button1.TabIndex = 1;
             this.guna2Button1.Text = "Back";
             this.guna2Button1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -82,10 +84,10 @@
             this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2ControlBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(1654, 0);
-            this.guna2ControlBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2ControlBox1.Location = new System.Drawing.Point(1000, 0);
+            this.guna2ControlBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2ControlBox1.Name = "guna2ControlBox1";
-            this.guna2ControlBox1.Size = new System.Drawing.Size(53, 34);
+            this.guna2ControlBox1.Size = new System.Drawing.Size(40, 28);
             this.guna2ControlBox1.TabIndex = 0;
             // 
             // guna2Panel2
@@ -96,10 +98,10 @@
             this.guna2Panel2.Controls.Add(this.foodBtn);
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.guna2Panel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(59)))));
-            this.guna2Panel2.Location = new System.Drawing.Point(0, 34);
-            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2Panel2.Location = new System.Drawing.Point(0, 28);
+            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(181, 852);
+            this.guna2Panel2.Size = new System.Drawing.Size(136, 612);
             this.guna2Panel2.TabIndex = 1;
             // 
             // snackBtn
@@ -114,10 +116,10 @@
             this.snackBtn.Image = ((System.Drawing.Image)(resources.GetObject("snackBtn.Image")));
             this.snackBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.snackBtn.ImageSize = new System.Drawing.Size(50, 50);
-            this.snackBtn.Location = new System.Drawing.Point(0, 366);
-            this.snackBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.snackBtn.Location = new System.Drawing.Point(0, 297);
+            this.snackBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.snackBtn.Name = "snackBtn";
-            this.snackBtn.Size = new System.Drawing.Size(181, 126);
+            this.snackBtn.Size = new System.Drawing.Size(136, 102);
             this.snackBtn.TabIndex = 3;
             this.snackBtn.Text = "Snack";
             this.snackBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -135,10 +137,10 @@
             this.dessertBtn.Image = ((System.Drawing.Image)(resources.GetObject("dessertBtn.Image")));
             this.dessertBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.dessertBtn.ImageSize = new System.Drawing.Size(60, 60);
-            this.dessertBtn.Location = new System.Drawing.Point(0, 244);
-            this.dessertBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dessertBtn.Location = new System.Drawing.Point(0, 198);
+            this.dessertBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dessertBtn.Name = "dessertBtn";
-            this.dessertBtn.Size = new System.Drawing.Size(181, 126);
+            this.dessertBtn.Size = new System.Drawing.Size(136, 102);
             this.dessertBtn.TabIndex = 2;
             this.dessertBtn.Text = "Dessert";
             this.dessertBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -156,10 +158,10 @@
             this.drinkBtn.Image = ((System.Drawing.Image)(resources.GetObject("drinkBtn.Image")));
             this.drinkBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.drinkBtn.ImageSize = new System.Drawing.Size(70, 70);
-            this.drinkBtn.Location = new System.Drawing.Point(0, 123);
-            this.drinkBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.drinkBtn.Location = new System.Drawing.Point(0, 100);
+            this.drinkBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.drinkBtn.Name = "drinkBtn";
-            this.drinkBtn.Size = new System.Drawing.Size(181, 126);
+            this.drinkBtn.Size = new System.Drawing.Size(136, 102);
             this.drinkBtn.TabIndex = 1;
             this.drinkBtn.Text = "Drinks";
             this.drinkBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -178,9 +180,9 @@
             this.foodBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.foodBtn.ImageSize = new System.Drawing.Size(70, 70);
             this.foodBtn.Location = new System.Drawing.Point(0, 0);
-            this.foodBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.foodBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.foodBtn.Name = "foodBtn";
-            this.foodBtn.Size = new System.Drawing.Size(181, 126);
+            this.foodBtn.Size = new System.Drawing.Size(136, 102);
             this.foodBtn.TabIndex = 0;
             this.foodBtn.Text = "Food";
             this.foodBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -190,10 +192,9 @@
             // 
             this.menuDisPnl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.menuDisPnl.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.menuDisPnl.Location = new System.Drawing.Point(181, 34);
-            this.menuDisPnl.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.menuDisPnl.Location = new System.Drawing.Point(136, 28);
             this.menuDisPnl.Name = "menuDisPnl";
-            this.menuDisPnl.Size = new System.Drawing.Size(1526, 852);
+            this.menuDisPnl.Size = new System.Drawing.Size(904, 612);
             this.menuDisPnl.TabIndex = 3;
             // 
             // guna2BorderlessForm1
@@ -202,17 +203,28 @@
             this.guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
             this.guna2BorderlessForm1.TransparentWhileDrag = true;
             // 
+            // guna2ControlBox2
+            // 
+            this.guna2ControlBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
+            this.guna2ControlBox2.FillColor = System.Drawing.Color.SeaGreen;
+            this.guna2ControlBox2.IconColor = System.Drawing.Color.White;
+            this.guna2ControlBox2.Location = new System.Drawing.Point(959, 0);
+            this.guna2ControlBox2.Name = "guna2ControlBox2";
+            this.guna2ControlBox2.Size = new System.Drawing.Size(45, 29);
+            this.guna2ControlBox2.TabIndex = 2;
+            // 
             // Menu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1707, 886);
+            this.ClientSize = new System.Drawing.Size(1040, 640);
             this.Controls.Add(this.menuDisPnl);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.IsMdiContainer = true;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Menu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
@@ -234,5 +246,6 @@
         private Guna.UI2.WinForms.Guna2Button snackBtn;
         private Guna.UI2.WinForms.Guna2Button dessertBtn;
         private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox2;
     }
 }
