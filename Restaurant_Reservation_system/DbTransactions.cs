@@ -163,7 +163,6 @@ namespace Restaurant_Reservation_system
                 return false;
             }
         }
-
         // delete employee deteils using first name
         public bool deleteEmployee(string empName)
         {
@@ -183,7 +182,25 @@ namespace Restaurant_Reservation_system
                 return false;
             }
         }
-
+        // delete inventory items using name
+        public bool deleteInventory(string itemname)
+        {
+            try
+            {
+                MySqlConnection con = new DbConnection().connectDB();
+                string query = "delete from inventery where name=" + itemname;
+                MySqlCommand cmd = new MySqlCommand(query, con);
+                con.Open();
+                cmd.ExecuteNonQuery();
+                con.Close();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                return false;
+            }
+        }
         // update food details using food name
         public bool updateFood(string foodName, string category, int price)
         {
