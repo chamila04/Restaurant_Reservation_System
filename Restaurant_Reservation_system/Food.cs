@@ -50,33 +50,113 @@ namespace Restaurant_Reservation_system
             //MessageBox.Show(orderinfo);
 
             orderLbl.Text += "\n" + orderinfo + "\n";
-            tprice = fprice1;
-            totpriLbl.Text = foodTotal(fprice1);
+            //tprice = fprice1;
+            //totpriLbl.Text = foodTotal(fprice1);
             fprice1= (int)biriup.Value * 700;
         }
         private void guna2Button1_Click(object sender, EventArgs e)
         {
+            string foodName = guna2HtmlLabel2.Text;
+            int quantity = (int)seaup.Value;
+            int price = 0;
+            int tprice = 0;
+            string orderinfo = "";
+            string tprices = "";
+
+            DbTransactions order = new DbTransactions();
+            price = order.orderPrice(foodName);
+            tprice = quantity * price;
+            tprices = tprice.ToString();
+            //MessageBox.Show(tprices);
+            orderinfo = foodName + "    " + quantity + " x " + price + " =  " + tprices + "\n";
+            //MessageBox.Show(orderinfo);
+
+            orderLbl.Text += "\n" + orderinfo + "\n";
             fprice2 = (int)seaup.Value*650;
         }
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
+            string foodName = guna2HtmlLabel6.Text;
+            int quantity = (int)kottuup.Value;
+            int price = 0;
+            int tprice = 0;
+            string orderinfo = "";
+            string tprices = "";
+
+            DbTransactions order = new DbTransactions();
+            price = order.orderPrice(foodName);
+            tprice = quantity * price;
+            tprices = tprice.ToString();
+            //MessageBox.Show(tprices);
+            orderinfo = foodName + "    " + quantity + " x " + price + " =  " + tprices + "\n";
+            //MessageBox.Show(orderinfo);
+
+            orderLbl.Text += "\n" + orderinfo + "\n";
             fprice3 = (int)kottuup.Value*750;
 
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
+            string foodName = guna2HtmlLabel4.Text;
+            int quantity = (int)grillup.Value;
+            int price = 0;
+            int tprice = 0;
+            string orderinfo = "";
+            string tprices = "";
+
+            DbTransactions order = new DbTransactions();
+            price = order.orderPrice(foodName);
+            tprice = quantity * price;
+            tprices = tprice.ToString();
+            //MessageBox.Show(tprices);
+            orderinfo = foodName + "    " + quantity + " x " + price + " =  " + tprices + "\n";
+            //MessageBox.Show(orderinfo);
+
+            orderLbl.Text += "\n" + orderinfo + "\n";
             fprice4 = (int)grillup.Value * 850;
         }
 
         private void guna2Button5_Click(object sender, EventArgs e)
         {
+            string foodName = guna2HtmlLabel10.Text;
+            int quantity = (int)vegup.Value;
+            int price = 0;
+            int tprice = 0;
+            string orderinfo = "";
+            string tprices = "";
+
+            DbTransactions order = new DbTransactions();
+            price = order.orderPrice(foodName);
+            tprice = quantity * price;
+            tprices = tprice.ToString();
+            //MessageBox.Show(tprices);
+            orderinfo = foodName + "    " + quantity + " x " + price + " =  " + tprices + "\n";
+            //MessageBox.Show(orderinfo);
+
+            orderLbl.Text += "\n" + orderinfo + "\n";
             fprice5 = (int)vegup.Value * 600;
         }
 
         private void guna2Button4_Click(object sender, EventArgs e)
         {
+            string foodName = guna2HtmlLabel8.Text;
+            int quantity = (int)sefup.Value;
+            int price = 0;
+            int tprice = 0;
+            string orderinfo = "";
+            string tprices = "";
+
+            DbTransactions order = new DbTransactions();
+            price = order.orderPrice(foodName);
+            tprice = quantity * price;
+            tprices = tprice.ToString();
+            //MessageBox.Show(tprices);
+            orderinfo = foodName + "    " + quantity + " x " + price + " =  " + tprices + "\n";
+            //MessageBox.Show(orderinfo);
+
+            orderLbl.Text += "\n" + orderinfo + "\n";
             fprice6 = (int)sefup.Value * 800;
         }
 
