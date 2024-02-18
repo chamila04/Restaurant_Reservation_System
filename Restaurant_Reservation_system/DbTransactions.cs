@@ -113,7 +113,25 @@ namespace Restaurant_Reservation_system
             try
             {
                 MySqlConnection con = new DbConnection().connectDB();
-                string query = "insert into login_details(first_name,last_name,username,password,access) values('"+ firstName +"','" + lastName + "'," + password + "','"+ access +"')";
+                string query = "insert into login_details(first_name,last_name,username,password,access) values('"+ firstName +"','" + lastName + "','" + password + "','"+ access +"')";
+                MySqlCommand cmd = new MySqlCommand(query, con);
+                con.Open();
+                cmd.ExecuteNonQuery();
+                con.Close();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                return false;
+            }
+        }
+        public bool insertInventory(string name, int quantity, int price)
+        {
+            try
+            {
+                MySqlConnection con = new DbConnection().connectDB();
+                string query = "insert into inventery(name,quantity,price) values('" + name + "','" + quantity + "'," + price + ")";
                 MySqlCommand cmd = new MySqlCommand(query, con);
                 con.Open();
                 cmd.ExecuteNonQuery();

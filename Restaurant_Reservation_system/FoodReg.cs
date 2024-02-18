@@ -37,14 +37,14 @@ namespace Restaurant_Reservation_system
 
             if (status == true)
             {
-                MessageBox.Show("employee registerd succesfully");
+                MessageBox.Show("food added succesfully");
                 GRIDVIEW gRIDVIEW = new GRIDVIEW();
                 gRIDVIEW.Show();
                 this.Hide();
             }
             if (status == false)
             {
-                MessageBox.Show("employee registeration fail");
+                MessageBox.Show("food added fail");
                 nameText.Text = "";
                 priceText.Text = "";
                 nameText.Focus();

@@ -43,5 +43,12 @@ namespace Restaurant_Reservation_system
             food_details.Show();
             this.Hide();
         }
+
+        private void inventeryBtn_Click(object sender, EventArgs e)
+        {
+            Inventory inventory = new Inventory();
+            inventory.Show();
+            this.Hide();
+        }
     }
 }
