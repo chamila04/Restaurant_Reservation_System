@@ -142,7 +142,7 @@
             // textot
             // 
             this.textot.Location = new System.Drawing.Point(100, 511);
-            this.textot.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textot.Margin = new System.Windows.Forms.Padding(4);
             this.textot.Name = "textot";
             this.textot.Size = new System.Drawing.Size(132, 22);
             this.textot.TabIndex = 10;
@@ -505,13 +505,14 @@
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
             this.guna2HtmlLabel4.Size = new System.Drawing.Size(357, 38);
             this.guna2HtmlLabel4.TabIndex = 3;
-            this.guna2HtmlLabel4.Text = "Egg Kottu";
+            this.guna2HtmlLabel4.Text = "Egg roll";
             // 
             // guna2PictureBox3
             // 
             this.guna2PictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox3.BackgroundImage")));
             this.guna2PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.guna2PictureBox3.FillColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox3.Image")));
             this.guna2PictureBox3.ImageRotate = 0F;
             this.guna2PictureBox3.Location = new System.Drawing.Point(-7, 0);
             this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
