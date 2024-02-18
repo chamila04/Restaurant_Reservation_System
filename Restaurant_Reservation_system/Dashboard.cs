@@ -34,5 +34,12 @@ namespace Restaurant_Reservation_system
             menu.Show();
             this.Hide();
         }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            LoginForm login = new LoginForm();
+            login.Show();
+            this.Hide();
+        }
     }
 }
