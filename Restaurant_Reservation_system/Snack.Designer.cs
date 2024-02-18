@@ -37,12 +37,6 @@
             this.guna2HtmlLabel13 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.orderBtn = new Guna.UI2.WinForms.Guna2Button();
             this.guna2HtmlLabel14 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2Panel8 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel12 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2PictureBox7 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2NumericUpDown7 = new Guna.UI2.WinForms.Guna2NumericUpDown();
             this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -81,9 +75,6 @@
             this.shawaup = new Guna.UI2.WinForms.Guna2NumericUpDown();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel9.SuspendLayout();
-            this.guna2Panel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown7)).BeginInit();
             this.guna2Panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.vegup)).BeginInit();
@@ -108,7 +99,6 @@
             // 
             this.guna2Panel1.AutoScroll = true;
             this.guna2Panel1.Controls.Add(this.guna2Panel9);
-            this.guna2Panel1.Controls.Add(this.guna2Panel8);
             this.guna2Panel1.Controls.Add(this.guna2Panel6);
             this.guna2Panel1.Controls.Add(this.guna2Panel7);
             this.guna2Panel1.Controls.Add(this.guna2Panel4);
@@ -151,11 +141,11 @@
             // 
             this.orderLbl.AutoSize = false;
             this.orderLbl.BackColor = System.Drawing.Color.Transparent;
-            this.orderLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.orderLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
             this.orderLbl.Location = new System.Drawing.Point(12, 121);
             this.orderLbl.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.orderLbl.Name = "orderLbl";
-            this.orderLbl.Size = new System.Drawing.Size(268, 362);
+            this.orderLbl.Size = new System.Drawing.Size(327, 362);
             this.orderLbl.TabIndex = 9;
             this.orderLbl.Text = null;
             // 
@@ -216,88 +206,6 @@
             this.guna2HtmlLabel14.Size = new System.Drawing.Size(259, 57);
             this.guna2HtmlLabel14.TabIndex = 5;
             this.guna2HtmlLabel14.Text = "My orders";
-            // 
-            // guna2Panel8
-            // 
-            this.guna2Panel8.AutoRoundedCorners = true;
-            this.guna2Panel8.BackColor = System.Drawing.Color.White;
-            this.guna2Panel8.BorderRadius = 57;
-            this.guna2Panel8.Controls.Add(this.guna2HtmlLabel11);
-            this.guna2Panel8.Controls.Add(this.guna2HtmlLabel12);
-            this.guna2Panel8.Controls.Add(this.guna2PictureBox7);
-            this.guna2Panel8.Controls.Add(this.guna2Button6);
-            this.guna2Panel8.Controls.Add(this.guna2NumericUpDown7);
-            this.guna2Panel8.Location = new System.Drawing.Point(32, 914);
-            this.guna2Panel8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2Panel8.Name = "guna2Panel8";
-            this.guna2Panel8.Size = new System.Drawing.Size(864, 116);
-            this.guna2Panel8.TabIndex = 15;
-            // 
-            // guna2HtmlLabel11
-            // 
-            this.guna2HtmlLabel11.AutoSize = false;
-            this.guna2HtmlLabel11.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel11.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.guna2HtmlLabel11.Location = new System.Drawing.Point(731, 12);
-            this.guna2HtmlLabel11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2HtmlLabel11.Name = "guna2HtmlLabel11";
-            this.guna2HtmlLabel11.Size = new System.Drawing.Size(156, 38);
-            this.guna2HtmlLabel11.TabIndex = 4;
-            this.guna2HtmlLabel11.Text = "Rs. 600.00";
-            // 
-            // guna2HtmlLabel12
-            // 
-            this.guna2HtmlLabel12.AutoSize = false;
-            this.guna2HtmlLabel12.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel12.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.guna2HtmlLabel12.Location = new System.Drawing.Point(124, 12);
-            this.guna2HtmlLabel12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2HtmlLabel12.Name = "guna2HtmlLabel12";
-            this.guna2HtmlLabel12.Size = new System.Drawing.Size(357, 38);
-            this.guna2HtmlLabel12.TabIndex = 3;
-            this.guna2HtmlLabel12.Text = "Vegetable Spring Rolls";
-            // 
-            // guna2PictureBox7
-            // 
-            this.guna2PictureBox7.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox7.Image")));
-            this.guna2PictureBox7.ImageRotate = 0F;
-            this.guna2PictureBox7.Location = new System.Drawing.Point(-7, 0);
-            this.guna2PictureBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2PictureBox7.Name = "guna2PictureBox7";
-            this.guna2PictureBox7.Size = new System.Drawing.Size(125, 116);
-            this.guna2PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox7.TabIndex = 0;
-            this.guna2PictureBox7.TabStop = false;
-            // 
-            // guna2Button6
-            // 
-            this.guna2Button6.AutoRoundedCorners = true;
-            this.guna2Button6.BorderRadius = 18;
-            this.guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(195)))), ((int)(((byte)(0)))));
-            this.guna2Button6.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.guna2Button6.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button6.Location = new System.Drawing.Point(681, 66);
-            this.guna2Button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.Size = new System.Drawing.Size(155, 38);
-            this.guna2Button6.TabIndex = 1;
-            this.guna2Button6.Text = "select";
-            // 
-            // guna2NumericUpDown7
-            // 
-            this.guna2NumericUpDown7.BackColor = System.Drawing.Color.Transparent;
-            this.guna2NumericUpDown7.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2NumericUpDown7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2NumericUpDown7.Location = new System.Drawing.Point(172, 66);
-            this.guna2NumericUpDown7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2NumericUpDown7.Name = "guna2NumericUpDown7";
-            this.guna2NumericUpDown7.Size = new System.Drawing.Size(132, 38);
-            this.guna2NumericUpDown7.TabIndex = 2;
             // 
             // guna2Panel6
             // 
@@ -817,9 +725,6 @@
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel9.ResumeLayout(false);
             this.guna2Panel9.PerformLayout();
-            this.guna2Panel8.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2NumericUpDown7)).EndInit();
             this.guna2Panel6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.vegup)).EndInit();
@@ -881,12 +786,6 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2Button setectBtn1;
         private Guna.UI2.WinForms.Guna2NumericUpDown shawaup;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel8;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel11;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel12;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox7;
-        private Guna.UI2.WinForms.Guna2Button guna2Button6;
-        private Guna.UI2.WinForms.Guna2NumericUpDown guna2NumericUpDown7;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel9;
         private Guna.UI2.WinForms.Guna2HtmlLabel orderLbl;
         private Guna.UI2.WinForms.Guna2HtmlLabel totpriLbl;

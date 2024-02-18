@@ -141,11 +141,11 @@
             // 
             this.orderLbl.AutoSize = false;
             this.orderLbl.BackColor = System.Drawing.Color.Transparent;
-            this.orderLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.orderLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.orderLbl.Location = new System.Drawing.Point(12, 114);
             this.orderLbl.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.orderLbl.Name = "orderLbl";
-            this.orderLbl.Size = new System.Drawing.Size(268, 362);
+            this.orderLbl.Size = new System.Drawing.Size(317, 362);
             this.orderLbl.TabIndex = 9;
             this.orderLbl.Text = null;
             // 

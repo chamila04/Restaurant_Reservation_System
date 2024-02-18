@@ -131,7 +131,7 @@
             // textot
             // 
             this.textot.Location = new System.Drawing.Point(123, 511);
-            this.textot.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textot.Margin = new System.Windows.Forms.Padding(4);
             this.textot.Name = "textot";
             this.textot.Size = new System.Drawing.Size(132, 22);
             this.textot.TabIndex = 10;
@@ -140,11 +140,11 @@
             // 
             this.orderLbl.AutoSize = false;
             this.orderLbl.BackColor = System.Drawing.Color.Transparent;
-            this.orderLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.orderLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
             this.orderLbl.Location = new System.Drawing.Point(12, 121);
             this.orderLbl.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.orderLbl.Name = "orderLbl";
-            this.orderLbl.Size = new System.Drawing.Size(268, 362);
+            this.orderLbl.Size = new System.Drawing.Size(320, 362);
             this.orderLbl.TabIndex = 9;
             this.orderLbl.Text = null;
             // 
