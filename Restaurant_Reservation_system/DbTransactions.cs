@@ -144,13 +144,13 @@ namespace Restaurant_Reservation_system
                 return false;
             }
         }
-        // detete food details using food name
-        public bool deleteFood(string foodName)
+        // detete food details using food id
+        public bool deleteFood(string id)
         {
             try
             {
                 MySqlConnection con = new DbConnection().connectDB();
-                string query = "delete from food_details where food_name=" + foodName;
+                string query = "delete from food_details where id=" + id;
                 MySqlCommand cmd = new MySqlCommand(query, con);
                 con.Open();
                 cmd.ExecuteNonQuery();
@@ -163,13 +163,13 @@ namespace Restaurant_Reservation_system
                 return false;
             }
         }
-        // delete employee deteils using first name
-        public bool deleteEmployee(string empName)
+        // delete employee deteils using id
+        public bool deleteEmployee(string id)
         {
             try
             {
                 MySqlConnection con = new DbConnection().connectDB();
-                string query = "delete from employee_details where first_name =" + empName;
+                string query = "delete from employee_details where id =" + id;
                 MySqlCommand cmd = new MySqlCommand(query, con);
                 con.Open();
                 cmd.ExecuteNonQuery();
@@ -182,13 +182,13 @@ namespace Restaurant_Reservation_system
                 return false;
             }
         }
-        // delete inventory items using name
-        public bool deleteInventory(string itemname)
+        // delete inventory items using id
+        public bool deleteInventory(string id)
         {
             try
             {
                 MySqlConnection con = new DbConnection().connectDB();
-                string query = "delete from inventery where name=" + itemname;
+                string query = "delete from inventery where name=" + id;
                 MySqlCommand cmd = new MySqlCommand(query, con);
                 con.Open();
                 cmd.ExecuteNonQuery();

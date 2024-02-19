@@ -19,10 +19,10 @@ namespace Restaurant_Reservation_system
 
         private void deleteBtn_Click(object sender, EventArgs e)
         {
-            string name = nameText.Text;
+            string id = nameText.Text;
 
             DbTransactions delete = new DbTransactions();
-            bool status = delete.deleteInventory(name);
+            bool status = delete.deleteInventory(id);
 
             if (status == true)
             {
