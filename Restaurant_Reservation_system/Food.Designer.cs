@@ -145,10 +145,10 @@
             this.orderLbl.AutoSize = false;
             this.orderLbl.BackColor = System.Drawing.Color.DimGray;
             this.orderLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
-            this.orderLbl.Location = new System.Drawing.Point(12, 118);
+            this.orderLbl.Location = new System.Drawing.Point(21, 101);
             this.orderLbl.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.orderLbl.Name = "orderLbl";
-            this.orderLbl.Size = new System.Drawing.Size(394, 50);
+            this.orderLbl.Size = new System.Drawing.Size(364, 50);
             this.orderLbl.TabIndex = 16;
             this.orderLbl.Text = null;
             // 
@@ -157,10 +157,10 @@
             this.labalseaf.AutoSize = false;
             this.labalseaf.BackColor = System.Drawing.Color.DimGray;
             this.labalseaf.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
-            this.labalseaf.Location = new System.Drawing.Point(12, 395);
+            this.labalseaf.Location = new System.Drawing.Point(21, 376);
             this.labalseaf.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labalseaf.Name = "labalseaf";
-            this.labalseaf.Size = new System.Drawing.Size(394, 50);
+            this.labalseaf.Size = new System.Drawing.Size(364, 50);
             this.labalseaf.TabIndex = 15;
             this.labalseaf.Text = null;
             // 
@@ -169,10 +169,10 @@
             this.labalnood.AutoSize = false;
             this.labalnood.BackColor = System.Drawing.Color.DimGray;
             this.labalnood.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
-            this.labalnood.Location = new System.Drawing.Point(12, 340);
+            this.labalnood.Location = new System.Drawing.Point(21, 321);
             this.labalnood.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labalnood.Name = "labalnood";
-            this.labalnood.Size = new System.Drawing.Size(394, 50);
+            this.labalnood.Size = new System.Drawing.Size(364, 50);
             this.labalnood.TabIndex = 14;
             this.labalnood.Text = null;
             // 
@@ -181,10 +181,10 @@
             this.labalgrill.AutoSize = false;
             this.labalgrill.BackColor = System.Drawing.Color.DimGray;
             this.labalgrill.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
-            this.labalgrill.Location = new System.Drawing.Point(12, 284);
+            this.labalgrill.Location = new System.Drawing.Point(21, 265);
             this.labalgrill.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labalgrill.Name = "labalgrill";
-            this.labalgrill.Size = new System.Drawing.Size(394, 50);
+            this.labalgrill.Size = new System.Drawing.Size(364, 50);
             this.labalgrill.TabIndex = 13;
             this.labalgrill.Text = null;
             // 
@@ -193,10 +193,10 @@
             this.labalroti.AutoSize = false;
             this.labalroti.BackColor = System.Drawing.Color.DimGray;
             this.labalroti.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
-            this.labalroti.Location = new System.Drawing.Point(12, 229);
+            this.labalroti.Location = new System.Drawing.Point(21, 210);
             this.labalroti.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labalroti.Name = "labalroti";
-            this.labalroti.Size = new System.Drawing.Size(394, 50);
+            this.labalroti.Size = new System.Drawing.Size(364, 50);
             this.labalroti.TabIndex = 12;
             this.labalroti.Text = null;
             // 
@@ -205,17 +205,17 @@
             this.labalrice.AutoSize = false;
             this.labalrice.BackColor = System.Drawing.Color.DimGray;
             this.labalrice.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
-            this.labalrice.Location = new System.Drawing.Point(12, 174);
+            this.labalrice.Location = new System.Drawing.Point(21, 155);
             this.labalrice.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.labalrice.Name = "labalrice";
-            this.labalrice.Size = new System.Drawing.Size(394, 50);
+            this.labalrice.Size = new System.Drawing.Size(364, 50);
             this.labalrice.TabIndex = 11;
             this.labalrice.Text = null;
             // 
             // texttot
             // 
             this.texttot.Location = new System.Drawing.Point(108, 511);
-            this.texttot.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.texttot.Margin = new System.Windows.Forms.Padding(4);
             this.texttot.Name = "texttot";
             this.texttot.Size = new System.Drawing.Size(183, 22);
             this.texttot.TabIndex = 10;
