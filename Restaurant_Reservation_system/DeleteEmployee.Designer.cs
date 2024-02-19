@@ -38,9 +38,10 @@
             this.deleteBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.deleteBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.deleteBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.deleteBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.deleteBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(0)))), ((int)(((byte)(58)))));
+            this.deleteBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.deleteBtn.ForeColor = System.Drawing.Color.White;
-            this.deleteBtn.Location = new System.Drawing.Point(307, 280);
+            this.deleteBtn.Location = new System.Drawing.Point(105, 178);
             this.deleteBtn.Name = "deleteBtn";
             this.deleteBtn.Size = new System.Drawing.Size(180, 45);
             this.deleteBtn.TabIndex = 4;
@@ -58,11 +59,11 @@
             this.nameText.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.nameText.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.nameText.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.nameText.Location = new System.Drawing.Point(254, 126);
+            this.nameText.Location = new System.Drawing.Point(53, 58);
             this.nameText.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.nameText.Name = "nameText";
             this.nameText.PasswordChar = '\0';
-            this.nameText.PlaceholderText = "enter employee first name";
+            this.nameText.PlaceholderText = "enter employee id";
             this.nameText.SelectedText = "";
             this.nameText.Size = new System.Drawing.Size(293, 53);
             this.nameText.TabIndex = 3;
@@ -71,9 +72,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(391, 282);
             this.Controls.Add(this.deleteBtn);
             this.Controls.Add(this.nameText);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "DeleteEmployee";
             this.Text = "DeleteEmployee";
             this.ResumeLayout(false);
