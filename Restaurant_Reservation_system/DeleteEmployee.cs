@@ -19,11 +19,11 @@ namespace Restaurant_Reservation_system
 
         private void deleteBtn_Click(object sender, EventArgs e)
         {
-            string name = nameText.Text;
-            MessageBox.Show(name);
+            string id = nameText.Text;
+            //MessageBox.Show(id);
 
             DbTransactions delete = new DbTransactions();
-            bool status = delete.deleteEmployee(name);
+            bool status = delete.deleteEmployee(id);
 
             if (status == true)
             {

@@ -31,7 +31,6 @@
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel8 = new Guna.UI2.WinForms.Guna2Panel();
             this.texttot = new System.Windows.Forms.TextBox();
-            this.orderLbl = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.totpriLbl = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.orderBtn = new Guna.UI2.WinForms.Guna2Button();
@@ -128,7 +127,8 @@
             this.guna2Panel8.Controls.Add(this.labalroti);
             this.guna2Panel8.Controls.Add(this.labalrice);
             this.guna2Panel8.Controls.Add(this.texttot);
-            this.guna2Panel8.Controls.Add(this.orderLbl);
+            //this.guna2Panel8.Controls.Add(this.orderLbl);
+            this.guna2Panel8.Controls.Add(this.texttot);
             this.guna2Panel8.Controls.Add(this.totpriLbl);
             this.guna2Panel8.Controls.Add(this.guna2HtmlLabel11);
             this.guna2Panel8.Controls.Add(this.orderBtn);
@@ -146,18 +146,6 @@
             this.texttot.Name = "texttot";
             this.texttot.Size = new System.Drawing.Size(138, 20);
             this.texttot.TabIndex = 10;
-            // 
-            // orderLbl
-            // 
-            this.orderLbl.AutoSize = false;
-            this.orderLbl.BackColor = System.Drawing.Color.DimGray;
-            this.orderLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.orderLbl.Location = new System.Drawing.Point(9, 93);
-            this.orderLbl.Margin = new System.Windows.Forms.Padding(2);
-            this.orderLbl.Name = "orderLbl";
-            this.orderLbl.Size = new System.Drawing.Size(280, 44);
-            this.orderLbl.TabIndex = 9;
-            this.orderLbl.Text = null;
             // 
             // totpriLbl
             // 
@@ -856,7 +844,6 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
         private Guna.UI2.WinForms.Guna2NumericUpDown kottuup;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel8;
-        private Guna.UI2.WinForms.Guna2HtmlLabel orderLbl;
         private Guna.UI2.WinForms.Guna2HtmlLabel totpriLbl;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel11;
         private Guna.UI2.WinForms.Guna2Button orderBtn;
