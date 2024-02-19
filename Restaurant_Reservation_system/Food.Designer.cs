@@ -30,6 +30,11 @@
         {
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel8 = new Guna.UI2.WinForms.Guna2Panel();
+            this.labalseaf = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.labalnood = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.labalgrill = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.labalroti = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.labalrice = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.texttot = new System.Windows.Forms.TextBox();
             this.totpriLbl = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -71,11 +76,7 @@
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.setectBtn1 = new Guna.UI2.WinForms.Guna2Button();
             this.biriup = new Guna.UI2.WinForms.Guna2NumericUpDown();
-            this.labalrice = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.labalroti = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.labalgrill = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.labalnood = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.labalseaf = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.orderLbl = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel8.SuspendLayout();
             this.guna2Panel6.SuspendLayout();
@@ -121,13 +122,12 @@
             // guna2Panel8
             // 
             this.guna2Panel8.BackColor = System.Drawing.Color.RosyBrown;
+            this.guna2Panel8.Controls.Add(this.orderLbl);
             this.guna2Panel8.Controls.Add(this.labalseaf);
             this.guna2Panel8.Controls.Add(this.labalnood);
             this.guna2Panel8.Controls.Add(this.labalgrill);
             this.guna2Panel8.Controls.Add(this.labalroti);
             this.guna2Panel8.Controls.Add(this.labalrice);
-            this.guna2Panel8.Controls.Add(this.texttot);
-            //this.guna2Panel8.Controls.Add(this.orderLbl);
             this.guna2Panel8.Controls.Add(this.texttot);
             this.guna2Panel8.Controls.Add(this.totpriLbl);
             this.guna2Panel8.Controls.Add(this.guna2HtmlLabel11);
@@ -139,6 +139,66 @@
             this.guna2Panel8.Name = "guna2Panel8";
             this.guna2Panel8.Size = new System.Drawing.Size(307, 584);
             this.guna2Panel8.TabIndex = 10;
+            // 
+            // labalseaf
+            // 
+            this.labalseaf.AutoSize = false;
+            this.labalseaf.BackColor = System.Drawing.Color.DimGray;
+            this.labalseaf.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
+            this.labalseaf.Location = new System.Drawing.Point(9, 321);
+            this.labalseaf.Margin = new System.Windows.Forms.Padding(2);
+            this.labalseaf.Name = "labalseaf";
+            this.labalseaf.Size = new System.Drawing.Size(280, 41);
+            this.labalseaf.TabIndex = 15;
+            this.labalseaf.Text = null;
+            // 
+            // labalnood
+            // 
+            this.labalnood.AutoSize = false;
+            this.labalnood.BackColor = System.Drawing.Color.DimGray;
+            this.labalnood.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
+            this.labalnood.Location = new System.Drawing.Point(9, 276);
+            this.labalnood.Margin = new System.Windows.Forms.Padding(2);
+            this.labalnood.Name = "labalnood";
+            this.labalnood.Size = new System.Drawing.Size(280, 41);
+            this.labalnood.TabIndex = 14;
+            this.labalnood.Text = null;
+            // 
+            // labalgrill
+            // 
+            this.labalgrill.AutoSize = false;
+            this.labalgrill.BackColor = System.Drawing.Color.DimGray;
+            this.labalgrill.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
+            this.labalgrill.Location = new System.Drawing.Point(9, 231);
+            this.labalgrill.Margin = new System.Windows.Forms.Padding(2);
+            this.labalgrill.Name = "labalgrill";
+            this.labalgrill.Size = new System.Drawing.Size(280, 41);
+            this.labalgrill.TabIndex = 13;
+            this.labalgrill.Text = null;
+            // 
+            // labalroti
+            // 
+            this.labalroti.AutoSize = false;
+            this.labalroti.BackColor = System.Drawing.Color.DimGray;
+            this.labalroti.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
+            this.labalroti.Location = new System.Drawing.Point(9, 186);
+            this.labalroti.Margin = new System.Windows.Forms.Padding(2);
+            this.labalroti.Name = "labalroti";
+            this.labalroti.Size = new System.Drawing.Size(280, 41);
+            this.labalroti.TabIndex = 12;
+            this.labalroti.Text = null;
+            // 
+            // labalrice
+            // 
+            this.labalrice.AutoSize = false;
+            this.labalrice.BackColor = System.Drawing.Color.DimGray;
+            this.labalrice.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
+            this.labalrice.Location = new System.Drawing.Point(9, 141);
+            this.labalrice.Margin = new System.Windows.Forms.Padding(2);
+            this.labalrice.Name = "labalrice";
+            this.labalrice.Size = new System.Drawing.Size(280, 41);
+            this.labalrice.TabIndex = 11;
+            this.labalrice.Text = null;
             // 
             // texttot
             // 
@@ -709,65 +769,17 @@
             this.biriup.Size = new System.Drawing.Size(99, 31);
             this.biriup.TabIndex = 2;
             // 
-            // labalrice
+            // orderLbl
             // 
-            this.labalrice.AutoSize = false;
-            this.labalrice.BackColor = System.Drawing.Color.DimGray;
-            this.labalrice.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
-            this.labalrice.Location = new System.Drawing.Point(9, 141);
-            this.labalrice.Margin = new System.Windows.Forms.Padding(2);
-            this.labalrice.Name = "labalrice";
-            this.labalrice.Size = new System.Drawing.Size(280, 41);
-            this.labalrice.TabIndex = 11;
-            this.labalrice.Text = null;
-            // 
-            // labalroti
-            // 
-            this.labalroti.AutoSize = false;
-            this.labalroti.BackColor = System.Drawing.Color.DimGray;
-            this.labalroti.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
-            this.labalroti.Location = new System.Drawing.Point(9, 186);
-            this.labalroti.Margin = new System.Windows.Forms.Padding(2);
-            this.labalroti.Name = "labalroti";
-            this.labalroti.Size = new System.Drawing.Size(280, 41);
-            this.labalroti.TabIndex = 12;
-            this.labalroti.Text = null;
-            // 
-            // labalgrill
-            // 
-            this.labalgrill.AutoSize = false;
-            this.labalgrill.BackColor = System.Drawing.Color.DimGray;
-            this.labalgrill.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
-            this.labalgrill.Location = new System.Drawing.Point(9, 231);
-            this.labalgrill.Margin = new System.Windows.Forms.Padding(2);
-            this.labalgrill.Name = "labalgrill";
-            this.labalgrill.Size = new System.Drawing.Size(280, 41);
-            this.labalgrill.TabIndex = 13;
-            this.labalgrill.Text = null;
-            // 
-            // labalnood
-            // 
-            this.labalnood.AutoSize = false;
-            this.labalnood.BackColor = System.Drawing.Color.DimGray;
-            this.labalnood.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
-            this.labalnood.Location = new System.Drawing.Point(9, 276);
-            this.labalnood.Margin = new System.Windows.Forms.Padding(2);
-            this.labalnood.Name = "labalnood";
-            this.labalnood.Size = new System.Drawing.Size(280, 41);
-            this.labalnood.TabIndex = 14;
-            this.labalnood.Text = null;
-            // 
-            // labalseaf
-            // 
-            this.labalseaf.AutoSize = false;
-            this.labalseaf.BackColor = System.Drawing.Color.DimGray;
-            this.labalseaf.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
-            this.labalseaf.Location = new System.Drawing.Point(9, 321);
-            this.labalseaf.Margin = new System.Windows.Forms.Padding(2);
-            this.labalseaf.Name = "labalseaf";
-            this.labalseaf.Size = new System.Drawing.Size(280, 41);
-            this.labalseaf.TabIndex = 15;
-            this.labalseaf.Text = null;
+            this.orderLbl.AutoSize = false;
+            this.orderLbl.BackColor = System.Drawing.Color.DimGray;
+            this.orderLbl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
+            this.orderLbl.Location = new System.Drawing.Point(9, 96);
+            this.orderLbl.Margin = new System.Windows.Forms.Padding(2);
+            this.orderLbl.Name = "orderLbl";
+            this.orderLbl.Size = new System.Drawing.Size(280, 41);
+            this.orderLbl.TabIndex = 16;
+            this.orderLbl.Text = null;
             // 
             // Food
             // 
@@ -854,5 +866,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel labalroti;
         private Guna.UI2.WinForms.Guna2HtmlLabel labalrice;
         private Guna.UI2.WinForms.Guna2HtmlLabel labalseaf;
+        private Guna.UI2.WinForms.Guna2HtmlLabel orderLbl;
     }
 }
