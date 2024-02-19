@@ -49,6 +49,9 @@ namespace Restaurant_Reservation_system
             orderLbl.Text += "\n" + orderinfo + "\n";
 
             snpricee1 = (int)shawaup.Value * 300;
+
+            DbTransactions orderup = new DbTransactions();
+            orderup.insertOrder(foodName, quantity, tprice);
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
@@ -71,6 +74,9 @@ namespace Restaurant_Reservation_system
             labalroti.Text += "\n" + orderinfo + "\n";
 
             snpricee2 = (int)rotiup.Value * 250;
+
+            DbTransactions orderup = new DbTransactions();
+            orderup.insertOrder(foodName, quantity, tprice);
         }
 
         private void guna2Button3_Click(object sender, EventArgs e)
@@ -93,6 +99,9 @@ namespace Restaurant_Reservation_system
             labalfish.Text += "\n" + orderinfo + "\n";
 
             snpricee3 = (int)fishup.Value * 200;
+
+            DbTransactions orderup = new DbTransactions();
+            orderup.insertOrder(foodName, quantity, tprice);
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
@@ -115,6 +124,9 @@ namespace Restaurant_Reservation_system
             labalegg.Text += "\n" + orderinfo + "\n";
 
             snpricee4 = (int)eggup.Value * 280;
+
+            DbTransactions orderup = new DbTransactions();
+            orderup.insertOrder(foodName, quantity, tprice);
         }
 
         private void guna2Button5_Click(object sender, EventArgs e)
@@ -137,6 +149,9 @@ namespace Restaurant_Reservation_system
             labalnug.Text += "\n" + orderinfo + "\n";
 
             snpricee5 = (int)nugup.Value * 350;
+
+            DbTransactions orderup = new DbTransactions();
+            orderup.insertOrder(foodName, quantity, tprice);
         }
 
         private void guna2Button4_Click(object sender, EventArgs e)
@@ -159,6 +174,9 @@ namespace Restaurant_Reservation_system
             labalsamo.Text += "\n" + orderinfo + "\n";
 
             snpricee6 = (int)vegup.Value * 180;
+
+            DbTransactions orderup = new DbTransactions();
+            orderup.insertOrder(foodName, quantity, tprice);
         }
 
         private void orderBtn_Click(object sender, EventArgs e)
