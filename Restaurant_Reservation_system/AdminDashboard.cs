@@ -57,5 +57,12 @@ namespace Restaurant_Reservation_system
             login.Show();
             this.Hide();
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            Order_Details od = new Order_Details();
+            od.Show();
+            this.Hide();
+        }
     }
 }

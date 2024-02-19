@@ -30,6 +30,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Drink));
             this.guna2Panel8 = new Guna.UI2.WinForms.Guna2Panel();
+            this.labalavo = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.laballemon = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.labalsmoo = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.labalmoji = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.labalcapp = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.textot = new System.Windows.Forms.TextBox();
             this.orderLbl = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.totpriLbl = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -72,11 +77,6 @@
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.setectBtn1 = new Guna.UI2.WinForms.Guna2Button();
             this.orangeup = new Guna.UI2.WinForms.Guna2NumericUpDown();
-            this.labalcapp = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.labalmoji = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.labalsmoo = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.laballemon = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.labalavo = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel8.SuspendLayout();
             this.guna2Panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
@@ -100,7 +100,7 @@
             // 
             // guna2Panel8
             // 
-            this.guna2Panel8.BackgroundImage = global::Restaurant_Reservation_system.Properties.Resources.Untitled_design__2_3;
+            this.guna2Panel8.BackColor = System.Drawing.Color.Transparent;
             this.guna2Panel8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.guna2Panel8.Controls.Add(this.labalavo);
             this.guna2Panel8.Controls.Add(this.laballemon);
@@ -113,12 +113,72 @@
             this.guna2Panel8.Controls.Add(this.guna2HtmlLabel11);
             this.guna2Panel8.Controls.Add(this.orderBtn);
             this.guna2Panel8.Controls.Add(this.guna2HtmlLabel12);
-            this.guna2Panel8.FillColor = System.Drawing.Color.LightSkyBlue;
-            this.guna2Panel8.Location = new System.Drawing.Point(704, 30);
+            this.guna2Panel8.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Panel8.Location = new System.Drawing.Point(734, 28);
             this.guna2Panel8.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Panel8.Name = "guna2Panel8";
             this.guna2Panel8.Size = new System.Drawing.Size(289, 588);
             this.guna2Panel8.TabIndex = 16;
+            // 
+            // labalavo
+            // 
+            this.labalavo.AutoSize = false;
+            this.labalavo.BackColor = System.Drawing.Color.DimGray;
+            this.labalavo.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
+            this.labalavo.Location = new System.Drawing.Point(2, 323);
+            this.labalavo.Margin = new System.Windows.Forms.Padding(2);
+            this.labalavo.Name = "labalavo";
+            this.labalavo.Size = new System.Drawing.Size(280, 41);
+            this.labalavo.TabIndex = 15;
+            this.labalavo.Text = null;
+            // 
+            // laballemon
+            // 
+            this.laballemon.AutoSize = false;
+            this.laballemon.BackColor = System.Drawing.Color.DimGray;
+            this.laballemon.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
+            this.laballemon.Location = new System.Drawing.Point(0, 278);
+            this.laballemon.Margin = new System.Windows.Forms.Padding(2);
+            this.laballemon.Name = "laballemon";
+            this.laballemon.Size = new System.Drawing.Size(280, 41);
+            this.laballemon.TabIndex = 14;
+            this.laballemon.Text = null;
+            // 
+            // labalsmoo
+            // 
+            this.labalsmoo.AutoSize = false;
+            this.labalsmoo.BackColor = System.Drawing.Color.DimGray;
+            this.labalsmoo.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
+            this.labalsmoo.Location = new System.Drawing.Point(2, 233);
+            this.labalsmoo.Margin = new System.Windows.Forms.Padding(2);
+            this.labalsmoo.Name = "labalsmoo";
+            this.labalsmoo.Size = new System.Drawing.Size(280, 41);
+            this.labalsmoo.TabIndex = 13;
+            this.labalsmoo.Text = null;
+            // 
+            // labalmoji
+            // 
+            this.labalmoji.AutoSize = false;
+            this.labalmoji.BackColor = System.Drawing.Color.DimGray;
+            this.labalmoji.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
+            this.labalmoji.Location = new System.Drawing.Point(2, 188);
+            this.labalmoji.Margin = new System.Windows.Forms.Padding(2);
+            this.labalmoji.Name = "labalmoji";
+            this.labalmoji.Size = new System.Drawing.Size(280, 41);
+            this.labalmoji.TabIndex = 12;
+            this.labalmoji.Text = null;
+            // 
+            // labalcapp
+            // 
+            this.labalcapp.AutoSize = false;
+            this.labalcapp.BackColor = System.Drawing.Color.DimGray;
+            this.labalcapp.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
+            this.labalcapp.Location = new System.Drawing.Point(2, 143);
+            this.labalcapp.Margin = new System.Windows.Forms.Padding(2);
+            this.labalcapp.Name = "labalcapp";
+            this.labalcapp.Size = new System.Drawing.Size(280, 41);
+            this.labalcapp.TabIndex = 11;
+            this.labalcapp.Text = null;
             // 
             // textot
             // 
@@ -155,8 +215,9 @@
             // 
             this.guna2HtmlLabel11.AutoSize = false;
             this.guna2HtmlLabel11.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel11.Font = new System.Drawing.Font("Segoe UI Black", 10F, System.Drawing.FontStyle.Bold);
-            this.guna2HtmlLabel11.Location = new System.Drawing.Point(16, 415);
+            this.guna2HtmlLabel11.Font = new System.Drawing.Font("Segoe UI Black", 14F, System.Drawing.FontStyle.Bold);
+            this.guna2HtmlLabel11.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.guna2HtmlLabel11.Location = new System.Drawing.Point(16, 413);
             this.guna2HtmlLabel11.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel11.Name = "guna2HtmlLabel11";
             this.guna2HtmlLabel11.Size = new System.Drawing.Size(70, 22);
@@ -190,6 +251,7 @@
             this.guna2HtmlLabel12.AutoSize = false;
             this.guna2HtmlLabel12.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel12.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold);
+            this.guna2HtmlLabel12.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.guna2HtmlLabel12.Location = new System.Drawing.Point(16, 10);
             this.guna2HtmlLabel12.Margin = new System.Windows.Forms.Padding(2);
             this.guna2HtmlLabel12.Name = "guna2HtmlLabel12";
@@ -207,7 +269,7 @@
             this.guna2Panel6.Controls.Add(this.guna2PictureBox5);
             this.guna2Panel6.Controls.Add(this.guna2Button4);
             this.guna2Panel6.Controls.Add(this.avoup);
-            this.guna2Panel6.Location = new System.Drawing.Point(24, 524);
+            this.guna2Panel6.Location = new System.Drawing.Point(54, 524);
             this.guna2Panel6.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Panel6.Name = "guna2Panel6";
             this.guna2Panel6.Size = new System.Drawing.Size(668, 94);
@@ -291,7 +353,7 @@
             this.guna2Panel7.Controls.Add(this.guna2PictureBox6);
             this.guna2Panel7.Controls.Add(this.guna2Button5);
             this.guna2Panel7.Controls.Add(this.lemonup);
-            this.guna2Panel7.Location = new System.Drawing.Point(24, 426);
+            this.guna2Panel7.Location = new System.Drawing.Point(54, 426);
             this.guna2Panel7.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Panel7.Name = "guna2Panel7";
             this.guna2Panel7.Size = new System.Drawing.Size(668, 94);
@@ -375,7 +437,7 @@
             this.guna2Panel4.Controls.Add(this.guna2PictureBox3);
             this.guna2Panel4.Controls.Add(this.guna2Button2);
             this.guna2Panel4.Controls.Add(this.smooup);
-            this.guna2Panel4.Location = new System.Drawing.Point(24, 324);
+            this.guna2Panel4.Location = new System.Drawing.Point(54, 322);
             this.guna2Panel4.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Panel4.Name = "guna2Panel4";
             this.guna2Panel4.Size = new System.Drawing.Size(668, 94);
@@ -459,7 +521,7 @@
             this.guna2Panel3.Controls.Add(this.guna2PictureBox2);
             this.guna2Panel3.Controls.Add(this.guna2Button1);
             this.guna2Panel3.Controls.Add(this.cappup);
-            this.guna2Panel3.Location = new System.Drawing.Point(24, 128);
+            this.guna2Panel3.Location = new System.Drawing.Point(54, 126);
             this.guna2Panel3.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.Size = new System.Drawing.Size(668, 94);
@@ -543,7 +605,7 @@
             this.guna2Panel5.Controls.Add(this.guna2PictureBox4);
             this.guna2Panel5.Controls.Add(this.guna2Button3);
             this.guna2Panel5.Controls.Add(this.mojiup);
-            this.guna2Panel5.Location = new System.Drawing.Point(24, 226);
+            this.guna2Panel5.Location = new System.Drawing.Point(54, 224);
             this.guna2Panel5.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Panel5.Name = "guna2Panel5";
             this.guna2Panel5.Size = new System.Drawing.Size(668, 94);
@@ -627,7 +689,7 @@
             this.guna2Panel2.Controls.Add(this.guna2PictureBox1);
             this.guna2Panel2.Controls.Add(this.setectBtn1);
             this.guna2Panel2.Controls.Add(this.orangeup);
-            this.guna2Panel2.Location = new System.Drawing.Point(24, 30);
+            this.guna2Panel2.Location = new System.Drawing.Point(54, 28);
             this.guna2Panel2.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.Size = new System.Drawing.Size(668, 94);
@@ -701,72 +763,13 @@
             this.orangeup.Size = new System.Drawing.Size(99, 31);
             this.orangeup.TabIndex = 2;
             // 
-            // labalcapp
-            // 
-            this.labalcapp.AutoSize = false;
-            this.labalcapp.BackColor = System.Drawing.Color.DimGray;
-            this.labalcapp.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
-            this.labalcapp.Location = new System.Drawing.Point(2, 143);
-            this.labalcapp.Margin = new System.Windows.Forms.Padding(2);
-            this.labalcapp.Name = "labalcapp";
-            this.labalcapp.Size = new System.Drawing.Size(280, 41);
-            this.labalcapp.TabIndex = 11;
-            this.labalcapp.Text = null;
-            // 
-            // labalmoji
-            // 
-            this.labalmoji.AutoSize = false;
-            this.labalmoji.BackColor = System.Drawing.Color.DimGray;
-            this.labalmoji.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
-            this.labalmoji.Location = new System.Drawing.Point(2, 188);
-            this.labalmoji.Margin = new System.Windows.Forms.Padding(2);
-            this.labalmoji.Name = "labalmoji";
-            this.labalmoji.Size = new System.Drawing.Size(280, 41);
-            this.labalmoji.TabIndex = 12;
-            this.labalmoji.Text = null;
-            // 
-            // labalsmoo
-            // 
-            this.labalsmoo.AutoSize = false;
-            this.labalsmoo.BackColor = System.Drawing.Color.DimGray;
-            this.labalsmoo.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
-            this.labalsmoo.Location = new System.Drawing.Point(2, 233);
-            this.labalsmoo.Margin = new System.Windows.Forms.Padding(2);
-            this.labalsmoo.Name = "labalsmoo";
-            this.labalsmoo.Size = new System.Drawing.Size(280, 41);
-            this.labalsmoo.TabIndex = 13;
-            this.labalsmoo.Text = null;
-            // 
-            // laballemon
-            // 
-            this.laballemon.AutoSize = false;
-            this.laballemon.BackColor = System.Drawing.Color.DimGray;
-            this.laballemon.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
-            this.laballemon.Location = new System.Drawing.Point(0, 278);
-            this.laballemon.Margin = new System.Windows.Forms.Padding(2);
-            this.laballemon.Name = "laballemon";
-            this.laballemon.Size = new System.Drawing.Size(280, 41);
-            this.laballemon.TabIndex = 14;
-            this.laballemon.Text = null;
-            // 
-            // labalavo
-            // 
-            this.labalavo.AutoSize = false;
-            this.labalavo.BackColor = System.Drawing.Color.DimGray;
-            this.labalavo.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
-            this.labalavo.Location = new System.Drawing.Point(2, 323);
-            this.labalavo.Margin = new System.Windows.Forms.Padding(2);
-            this.labalavo.Name = "labalavo";
-            this.labalavo.Size = new System.Drawing.Size(280, 41);
-            this.labalavo.TabIndex = 15;
-            this.labalavo.Text = null;
-            // 
             // Drink
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Restaurant_Reservation_system.Properties.Resources.Untitled_design__2_2;
-            this.ClientSize = new System.Drawing.Size(1020, 640);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1086, 640);
             this.Controls.Add(this.guna2Panel6);
             this.Controls.Add(this.guna2Panel8);
             this.Controls.Add(this.guna2Panel7);
