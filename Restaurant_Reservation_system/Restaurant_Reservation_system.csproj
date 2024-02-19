@@ -211,6 +211,12 @@
     <Compile Include="Order.Designer.cs">
       <DependentUpon>Order.cs</DependentUpon>
     </Compile>
+    <Compile Include="Order_Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Order_Details.Designer.cs">
+      <DependentUpon>Order_Details.cs</DependentUpon>
+    </Compile>
     <Compile Include="PanelControl.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -270,6 +276,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Order.resx">
       <DependentUpon>Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order_Details.resx">
+      <DependentUpon>Order_Details.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
