@@ -95,7 +95,7 @@
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(32, 212);
             this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(333, 26);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(499, 26);
             this.guna2HtmlLabel1.TabIndex = 3;
             this.guna2HtmlLabel1.Text = "Login with your username and password";
             // 
