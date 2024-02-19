@@ -143,6 +143,16 @@ namespace Restaurant_Reservation_system.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Untitled_design {
+            get {
+                object obj = ResourceManager.GetObject("Untitled design", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Untitled_design__1_ {
             get {
                 object obj = ResourceManager.GetObject("Untitled design (1)", resourceCulture);
@@ -253,6 +263,16 @@ namespace Restaurant_Reservation_system.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Untitled_design__7_1 {
+            get {
+                object obj = ResourceManager.GetObject("Untitled design (7)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Untitled_design__8_ {
             get {
                 object obj = ResourceManager.GetObject("Untitled design (8)", resourceCulture);
@@ -296,6 +316,26 @@ namespace Restaurant_Reservation_system.Properties {
         internal static System.Drawing.Bitmap veg_fried_rice {
             get {
                 object obj = ResourceManager.GetObject("veg-fried-rice", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap White_orange_minimalist_food_house_logo {
+            get {
+                object obj = ResourceManager.GetObject("White orange minimalist food house logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap White_orange_minimalist_food_house_logo1 {
+            get {
+                object obj = ResourceManager.GetObject("White orange minimalist food house logo1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

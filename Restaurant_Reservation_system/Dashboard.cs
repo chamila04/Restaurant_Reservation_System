@@ -41,5 +41,12 @@ namespace Restaurant_Reservation_system
             login.Show();
             this.Hide();
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            AboutUs asa = new AboutUs();
+            asa.Show();
+            this.Hide();
+        }
     }
 }
